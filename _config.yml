@@ -3,7 +3,7 @@ title:       djinit.ai
 email:       djinit.ai@djsce.edu.in
 author:      Pankil Daru
 description: ""
-baseurl:     "djinit-ai.github.io"
+baseurl:     ""
 url:         "djinit-ai.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
