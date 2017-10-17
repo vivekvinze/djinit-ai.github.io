@@ -10,8 +10,8 @@ This is the first post of this blog series and it is entirely dedicated to Pytho
 So coming back to Python! There is a lot of content on the web and it might get difficult to choose the best course or material to learn from. Here, we have listed down some of the sources that we found useful.
 
 For all those who are completely new to the language (assuming that you know object oriented concepts):
-1.
-2.
+1. link1
+2. link2
 
 For all those who have lost touch and wish to revisit the basics:
 1.
