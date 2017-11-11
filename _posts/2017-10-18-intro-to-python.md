@@ -33,7 +33,7 @@ If your focus is on the field of Data Science and Machine Learning. We have 2 la
 
 ![Python vs R](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/pythonvsr.jpg?raw=true "Python vs R")
 
-The aim of this comparison is to clear out a beginner’s confusion about the nuances of these languages. Check [this](https://www.kdnuggets.com/2015/05/r-vs-python-data-science.html) out for a more detailed comparison. Our series will be include scripts coded in Python.
+The aim of this comparison is to clear out a beginner’s confusion about the nuances of these languages. Check [this](https://www.kdnuggets.com/2015/05/r-vs-python-data-science.html){:target:"_blank"} out for a more detailed comparison. Our series will be include scripts coded in Python.
 
 Hopefully by now you are satisfied with the answer to **WHY PYTHON**. So let's start our journey towards true automation!
 
