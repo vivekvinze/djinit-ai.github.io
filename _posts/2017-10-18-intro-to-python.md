@@ -65,6 +65,6 @@ There is a lot of content on the web and it might get difficult to choose the be
 
 ### For all those who are well-versed and wish to flex their Python skills:
 - [HackerRank](https://www.hackerrank.com/domains/python/py-introduction){:target="_blank"}
-- [Pratice Python]((https://practicepython.org){:target="_blank"}
+- [Pratice Python](https://practicepython.org){:target="_blank"}
 
 We hope this post was helpful. Feel free to comment in case of doubts and do let us know your feedback. Stay tuned for more!
