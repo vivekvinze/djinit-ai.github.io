@@ -39,7 +39,7 @@ Hopefully by now you are satisfied with the answer to **WHY PYTHON**. So let's s
 
 ## Python 2 & Python 3
 
-Currently there are very few libraries that do not support Python 3. At the time of this post, [Python 3 Readiness](http://py3readiness.org/) shows that 345 of the 360 top packages for Python support 3.x. More detailed overview [here](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html). The confusion as to which version should one take up for learning persists because many MOOC are 2.x based and haven’t been updated. Zed Shaw, the writer of  extremely popular ‘Learn Python the Hard Way’ , published a controversial article: [The Case against Python 3](https://learnpythonthehardway.org/book/nopython3.html). You might also like to read Eevee’s excellent rebuttal: [A Rebuttal For Python 3](https://eev.ee/blog/2016/11/23/a-rebuttal-for-python-3/), as well as the thoughts of many software developers in the [Hacker News](https://news.ycombinator.com/item?id=13019819) thread for Zed’s article. In short - the number of people who agree with Zed’s rant are in the extreme minority. Python 3.x is the future. Python 2.x support is diminishing and very soon there will be no security bug fixes for 2.x. We recommend learning Python 3.x and our future tutorials will be based on it as well.
+Currently there are very few libraries that do not support Python 3. At the time of this post, [Python 3 Readiness](http://py3readiness.org/){:target="_blank"} shows that 345 of the 360 top packages for Python support 3.x. More detailed overview [here](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html){:target="_blank"}. The confusion as to which version should one take up for learning persists because many MOOC are 2.x based and haven’t been updated. Zed Shaw, the writer of  extremely popular ‘Learn Python the Hard Way’ , published a controversial article: [The Case against Python 3](https://learnpythonthehardway.org/book/nopython3.html){:target="_blank"}. You might also like to read Eevee’s excellent rebuttal: [A Rebuttal For Python 3](https://eev.ee/blog/2016/11/23/a-rebuttal-for-python-3/){:target="_blank"}, as well as the thoughts of many software developers in the [Hacker News](https://news.ycombinator.com/item?id=13019819){:target="_blank"} thread for Zed’s article. In short - the number of people who agree with Zed’s rant are in the extreme minority. Python 3.x is the future. Python 2.x support is diminishing and very soon there will be no security bug fixes for 2.x. We recommend learning Python 3.x and our future tutorials will be based on it as well.
 
 ## The Real Deal
 
@@ -49,22 +49,22 @@ There is a lot of content on the web and it might get difficult to choose the be
 
 ### For all those who are completely new to the language:
 - Online Tutorials
-  - [Coursera: Python for Everybody(Course 1 & 2)](https://www.coursera.org/specializations/python)
-  - [Datacamp: Intro to Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science)
-  - [Youtube: Sentdex](https://www.youtube.com/playlist?list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M)
+  - [Coursera: Python for Everybody(Course 1 & 2)](https://www.coursera.org/specializations/python){:target="_blank"}
+  - [Datacamp: Intro to Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science){:target="_blank"}
+  - [Youtube: Sentdex](https://www.youtube.com/playlist?list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M){:target="_blank"}
 
 - Books & Blogs
-  - [Learn Python The Hard Way](https://learnpythonthehardway.org/)
-  - [Automate The Boring Stuff With Python](https://drive.google.com/file/d/11mFUYzS5P5QeTetb21k7JjHmIATVKJTg/view?usp=sharing)
+  - [Learn Python The Hard Way](https://learnpythonthehardway.org/){:target="_blank"}
+  - [Automate The Boring Stuff With Python](https://drive.google.com/file/d/11mFUYzS5P5QeTetb21k7JjHmIATVKJTg/view?usp=sharing){:target="_blank"}
 
-- Bonus Link: [Object Oriented Programming](https://www.python-course.eu/object_oriented_programming.php)
+- Bonus Link: [Object Oriented Programming](https://www.python-course.eu/object_oriented_programming.php){:target="_blank"}
 
 ### For all those who have lost touch and wish to revisit the basics:
-- [Youtube: Derek Banas](https://www.youtube.com/watch?v=N4mEzFDjqtA)
-- [HackerRank](https://www.hackerrank.com/domains/python/py-introduction)
+- [Youtube: Derek Banas](https://www.youtube.com/watch?v=N4mEzFDjqtA){:target="_blank"}
+- [HackerRank](https://www.hackerrank.com/domains/python/py-introduction){:target="_blank"}
 
 ### For all those who are well-versed and wish to flex their Python skills:
-- [HackerRank](https://www.hackerrank.com/domains/python/py-introduction)
-- [Pratice Python]((https://practicepython.org)
+- [HackerRank](https://www.hackerrank.com/domains/python/py-introduction){:target="_blank"}
+- [Pratice Python]((https://practicepython.org){:target="_blank"}
 
 We hope this post was helpful. Feel free to comment in case of doubts and do let us know your feedback. Stay tuned for more!
