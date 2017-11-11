@@ -8,7 +8,7 @@ categories: python
 This is an introductory blog to our forthcoming series encompassing various domains in Computer Science with primary focus on Artificial Intelligence. In this post we will talk about a popular programming language which is extensively used in the field of Data Science and AI – Python.
 
 The first and the most obvious question that arises or rather must arise is **WHY PYTHON?**
-
+![alt text]( https://github.com/djinit-ai/djinit-ai.github.io/blob/master/_posts/python_comparison.jpg "")
 
 So coming back to Python! There is a lot of content on the web and it might get difficult to choose the best course or material to learn from. Here, we have listed down some of the sources that we found useful.
 
