@@ -54,8 +54,9 @@ There is a lot of content on the web and it might get difficult to choose the be
   - [Youtube: Sentdex](https://www.youtube.com/playlist?list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M){:target="_blank"}
 
 - Books & Blogs
+  - [The Official Python Tutorial](https://docs.python.org/3/tutorial/index.html)
   - [Learn Python The Hard Way](https://learnpythonthehardway.org/){:target="_blank"}
-  - [Automate The Boring Stuff With Python](https://drive.google.com/file/d/11mFUYzS5P5QeTetb21k7JjHmIATVKJTg/view?usp=sharing){:target="_blank"}
+  - [Automate The Boring Stuff With Python](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/data/automate-the-boring-stuff-with-python-2015.pdf){:target="_blank"}
 
 - Bonus Link: [Object Oriented Programming](https://www.python-course.eu/object_oriented_programming.php){:target="_blank"}
 
