@@ -56,11 +56,9 @@ There is a lot of content on the web and it might get difficult to choose the be
 - Books & Blogs
   - [The Official Python Tutorial](https://docs.python.org/3/tutorial/index.html)
   - [Learn Python The Hard Way](https://learnpythonthehardway.org/){:target="_blank"}
-  - [Automate The Boring Stuff With Python][1]{:target="_blank"}
+  -[Automate The Boring Stuff With Python]({{ site.url }}/data/automate-the-boring-stuff-with-python-2015.pdf){:target="_blank"}
   
 - Bonus Link: [Object Oriented Programming](https://www.python-course.eu/object_oriented_programming.php){:target="_blank"}
-
-[1]:https://github.com/djinit-ai/djinit-ai.github.io/blob/master/data/automate-the-boring-stuff-with-python-2015.pdf
 
 ### For all those who have lost touch and wish to revisit the basics:
 - [Youtube: Derek Banas](https://www.youtube.com/watch?v=N4mEzFDjqtA){:target="_blank"}
