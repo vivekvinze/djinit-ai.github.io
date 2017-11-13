@@ -1403,7 +1403,7 @@ plt.show()
 ```
 
 
-![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_114_0.png)
+![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_114_0.png?raw=true)
 
 
 To plot a graph, we just use the .plot() method. The arguments we pass to this method, is the data that we want to plot. The default graph is the line graph.
@@ -1416,7 +1416,7 @@ plt.show()
 ```
 
 
-![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_116_0.png)
+![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_116_0.png?raw=true)
 
 
 To plot a different graph, we use the desired graph type, such as .scatter or .bar.
@@ -1430,7 +1430,7 @@ plt.show()
 ```
 
 
-![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_118_0.png)
+![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_118_0.png?raw=true)
 
 
 .xlabel() and .ylabel() is used to set the name for x-axis and y-axis. All these methods are similar to those in Matlab.
@@ -1477,7 +1477,7 @@ plt.show()
 ```
 
 
-![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_123_0.png)
+![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_123_0.png?raw=true)
 
 
 
@@ -1487,7 +1487,7 @@ plt.show()
 ```
 
 
-![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_124_0.png)
+![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_124_0.png?raw=true)
 
 
 Now the graph type should be selected such that it represents the data very well. Like for a continous distribution, a histogram is suitable but for a time-series, a line plot is suitable. Lets see a continous distribution plot..
@@ -1500,7 +1500,7 @@ plt.show()
 ```
 
 
-![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_126_0.png)
+![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_126_0.png?raw=true)
 
 
 The above graph shows the distribution of Total for all the given pokemons.
@@ -1512,7 +1512,7 @@ plt.show()
 ```
 
 
-![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_128_0.png)
+![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_128_0.png?raw=true)
 
 
 Above is a boxplot, showing the median, 25th quartile, 75th quartile, Max value and Min value.
