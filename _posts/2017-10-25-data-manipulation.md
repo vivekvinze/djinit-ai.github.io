@@ -1,4 +1,10 @@
-
+---
+layout:     post
+title:      Data Manipulation
+date:       2017-10-25 02:10:29
+summary:    Usint NumPy, Pandas & Matplotlib
+categories: numpy, pandas, matplotlib, data visulization, data analytics, scipy
+---
 ## Numpy
 
 Numpy is used for scientific computations in Python. These computations are very useful while doing machine learning computations. It can be used to write a machine-learning and deep learning algorithms from the scratch. Out of the libraries we are going to cover in this blog, Numpy is the **most important** one. So you should have a good understanding of Numpy.By using NumPy, you can speed up your workflow, and interface with other packages in the Python ecosystem, like scikit-learn, that use NumPy under the hood.
