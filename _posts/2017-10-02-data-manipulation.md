@@ -1,13 +1,16 @@
 ---
 layout:     post
 title:      Data Manipulation
-date:       2017-10-25 02:10:29
-summary:    Usint NumPy, Pandas & Matplotlib
+date:       2017-10-02 02:10:29
+summary:    Using NumPy, Pandas & Matplotlib
 categories: numpy, pandas, matplotlib, data visulization, data analytics, scipy
 ---
-## Numpy
+## NumPy
 
-Numpy is used for scientific computations in Python. These computations are very useful while doing machine learning computations. It can be used to write a machine-learning and deep learning algorithms from the scratch. Out of the libraries we are going to cover in this blog, Numpy is the **most important** one. So you should have a good understanding of Numpy.By using NumPy, you can speed up your workflow, and interface with other packages in the Python ecosystem, like scikit-learn, that use NumPy under the hood.
+## What is NumPy
+> NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
+
+NumPy is used for scientific computations in Python. These computations are very useful while doing machine learning computations. It can be used to write a machine-learning and deep learning algorithms from the scratch. Out of the libraries we are going to cover in this blog, Numpy is the **most important** one. So you should have a good understanding of Numpy.By using NumPy, you can speed up your workflow, and interface with other packages in the Python ecosystem, like scikit-learn, that use NumPy under the hood.
 
 Python lists have limitations to it. Like we cannot perform algebric computations using list. Thus Numpy has arrays, which cover all the limitations of lists.NumPy arrays are more like C arrays than Python lists. 
 
@@ -1400,7 +1403,7 @@ plt.show()
 ```
 
 
-![png](output_114_0.png)
+![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_114_0.png)
 
 
 To plot a graph, we just use the .plot() method. The arguments we pass to this method, is the data that we want to plot. The default graph is the line graph.
@@ -1413,7 +1416,7 @@ plt.show()
 ```
 
 
-![png](output_116_0.png)
+![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_116_0.png)
 
 
 To plot a different graph, we use the desired graph type, such as .scatter or .bar.
@@ -1427,7 +1430,7 @@ plt.show()
 ```
 
 
-![png](output_118_0.png)
+![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_118_0.png)
 
 
 .xlabel() and .ylabel() is used to set the name for x-axis and y-axis. All these methods are similar to those in Matlab.
@@ -1474,7 +1477,7 @@ plt.show()
 ```
 
 
-![png](output_123_0.png)
+![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_123_0.png)
 
 
 
@@ -1484,7 +1487,7 @@ plt.show()
 ```
 
 
-![png](output_124_0.png)
+![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_124_0.png)
 
 
 Now the graph type should be selected such that it represents the data very well. Like for a continous distribution, a histogram is suitable but for a time-series, a line plot is suitable. Lets see a continous distribution plot..
@@ -1497,7 +1500,7 @@ plt.show()
 ```
 
 
-![png](output_126_0.png)
+![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_126_0.png)
 
 
 The above graph shows the distribution of Total for all the given pokemons.
@@ -1509,7 +1512,7 @@ plt.show()
 ```
 
 
-![png](output_128_0.png)
+![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_128_0.png)
 
 
 Above is a boxplot, showing the median, 25th quartile, 75th quartile, Max value and Min value.
