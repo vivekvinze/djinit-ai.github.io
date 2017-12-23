@@ -11,7 +11,9 @@ In a sentence, init.ai is the one-stop shop for all your hurdles of perplexity a
 ### Why AI?
 
 >	‘Big Data is the new natural resource’ – IBM.
->	‘AI is the new electricity’ - Andrew Ng, Founder of Google Brain, Chief Scientist at Baidu, Professor at Stanford University
+
+>	‘AI is the new electricity’ - Andrew Ng
+> Founder of Google Brain, Chief Scientist at Baidu, Professor at Stanford University
 
 It’s pretty evident from the two quotes that Data and AI are going to shape the future of the world. We believe that with the increasing advances in making machines smarter and amount of data growing day by day, the AI era has begun and it is going to revolutionize all spheres of life be it commuting to your office in a driverless car or getting interviewed by a chatbot. Sounds fun? This is exactly what attracted and pulled us towards AI. No wonder the job profile “Data Scientist” has been quoted as the sexiest job of 21st century. Because AI is making heads turn; and it most certainly has our undivided attention.
 
