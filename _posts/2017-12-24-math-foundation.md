@@ -43,3 +43,5 @@ The various resources that can be used are:
 
 1. [Khan Academy](https://www.khanacademy.org/math/statistics-probability)
 2. [Udacity - Statistics 101](https://in.udacity.com/course/intro-to-statistics--st101)
+
+We hope this post was helpful. Feel free to comment in case of doubts and do let us know your feedback. Stay tuned for more!
