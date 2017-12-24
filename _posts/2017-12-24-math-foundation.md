@@ -2,8 +2,8 @@
 layout:     post
 title:      Math Foundation
 date:       2017-12-24 02:10:29
-summary:    Using NumPy, Pandas & Matplotlib
-categories: maths, statistics, linear algebra
+summary:    Get to know the essential topics in Mathematics
+categories: maths, statistics, linear algebra, probability
 ---
 Recently, there have been many revolutionary advances made in the field of Ai. Be it from the breakthrough made in Reinforcement Learning by the introduction of AlphaGo by Google’s DeepMind or by the advances made in the field of Computer Vision with the inception of various Deep Learning applications like self-driving cars, face detection (Apple’s FaceID), language translation (Google’s Google Translate). Such breakthroughs have been the catalyst for many AI aspirants to provide a significant contribution to this ever-growing field. But then you come across mathematical notations which just does not make any sense to you. You probably understand all the theory that leads upto the mathematical proofs or expressions, but the rest seems to be just gibberish. 
 
