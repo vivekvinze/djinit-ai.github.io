@@ -1519,7 +1519,7 @@ Above is a boxplot, showing the median, 25th quartile, 75th quartile, Max value 
 
 The methods and functions covered in this blog are more than sufficient to get you started with Machine Learning and AI.
 
-
-```python
-
-```
+For further reference, prefer using offical docs.
+1. [NumPy](http://www.numpy.org)
+2. [Pandas](https://pandas.pydata.org)
+3. [Matplotlib](https://matplotlib.org/api/pyplot_api.html)
