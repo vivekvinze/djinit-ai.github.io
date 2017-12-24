@@ -1523,3 +1523,5 @@ For further reference, prefer using offical docs.
 1. [NumPy](http://www.numpy.org)
 2. [Pandas](https://pandas.pydata.org)
 3. [Matplotlib](https://matplotlib.org/api/pyplot_api.html)
+
+We hope this post was helpful. Feel free to comment in case of doubts and do let us know your feedback. Stay tuned for more!
