@@ -39,9 +39,13 @@ The various resources that can be used are:
 
 6.	This [link](http://hbpms.blogspot.in) is an amalgamation of various Math and Statistics Textbooks which are essential for Machine Learning algorithms.
 
+7. [GeeksforGeeks](https://www.geeksforgeeks.org/data-structures) is a very famous website which has description and codes for various algorithms and data structures. You can also strengthen your coding skills by using their platform.
+
 **Videos/MOOC:**
 
-1. [Khan Academy](https://www.khanacademy.org/math/statistics-probability)
-2. [Udacity - Statistics 101](https://in.udacity.com/course/intro-to-statistics--st101)
+1. [Khan Academy - Statistics and Probability](https://www.khanacademy.org/math/statistics-probability)
+2. [Udacity - Statistics 101](https://in.udacity.com/course/intro-to-statistics--st101) 
+3. [Khan Academy - Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
+4. [Khan Academy - Calculus](https://www.khanacademy.org/math/differential-calculus)
 
 We hope this post was helpful. Feel free to comment in case of doubts and do let us know your feedback. Stay tuned for more!
