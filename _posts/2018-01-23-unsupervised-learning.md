@@ -2,9 +2,10 @@
 layout:     post
 title:      UnSupervised Learning
 date:       2018-01-23 02:10:29
-summary:    Machine Learning 101: An In-Depth Guide - Unsupervised Learning.
+summary:    Machine Learning 101&#58; An In-Depth Guide - Unsupervised Learning.
 categories: machine learning, unsupervised learning
 ---
+
 # UnSupervised Learning
 
 ## What is Un-Supervised Learning?
