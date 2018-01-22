@@ -1,4 +1,10 @@
-
+---
+layout:     post
+title:      Supervised Learning&#58; Part III
+date:       2018-01-22 02:10:29
+summary:    Learn about the various factors that infuence your model.
+categories: machine learning, supervised learning, hyperparameter tuning
+---
 ## Feature Scaling & Mean Normalization
 
 Since the range of values of raw data varies widely, in some machine learning algorithms, objective functions will not work properly without normalization. For example, the majority of classifiers calculate the distance between two points by the Euclidean distance. If one of the features has a broad range of values, the distance will be governed by this particular feature. Therefore, the range of all features should be normalized so that each feature contributes approximately proportionately to the final distance.
