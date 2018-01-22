@@ -129,3 +129,4 @@ There are two methods of initialization: Zero Initialization and Random Initiali
 ```python
 
 ```
+We hope this post was helpful. Feel free to comment in case of doubts and do let us know your feedback. Stay tuned for more!
