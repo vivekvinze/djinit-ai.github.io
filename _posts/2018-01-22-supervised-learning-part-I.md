@@ -1,4 +1,3 @@
-
 ---
 layout:     post
 title:      Supervised Learning&#58; Part I
@@ -330,4 +329,7 @@ print(coeff)
  - **[Linear Regression](http://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html)**
 
  - **[Lasso and Ridge Regression](https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/)**
+ 
  - **[Types of Regression Techniques](https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/)**
+
+We hope this post was helpful. Feel free to comment in case of doubts and do let us know your feedback. Stay tuned for more!
