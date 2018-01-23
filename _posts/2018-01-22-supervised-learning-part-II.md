@@ -114,7 +114,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_10_0.png)
+![png](https://djinit-ai.github.io/images/output_10_0.png)
 
 
 
