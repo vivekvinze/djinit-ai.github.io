@@ -145,7 +145,7 @@ linearreg_predictior(xs,ys,4.5)
 ```
 
 
-![](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_3_0.png?raw=true "Regression fit")
+![](https://djinit-ai.github.io/images/output_3_0.png?raw=true "Regression fit")
 
 0.263888888889
 
