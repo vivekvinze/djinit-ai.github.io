@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Supervised Learning&#58; Part II
-date:       2018-01-22 01:09:29
+date:       2018-01-22 01:19:29
 summary:    Continue your quest for ML with Classification.
 categories: machine learning, supervised learning, classification
 ---
