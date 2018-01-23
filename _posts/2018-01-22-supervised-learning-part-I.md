@@ -145,8 +145,7 @@ linearreg_predictior(xs,ys,4.5)
 ```
 
 
-![png](https://github.com/djinit-ai/djinit-ai.github.io/tree/master/images/output_3_0.png)
-
+![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/output_3_0.png?raw=true)
 
     0.263888888889
 
