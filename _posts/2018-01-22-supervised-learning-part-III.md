@@ -12,11 +12,11 @@ Since the range of values of raw data varies widely, in some machine learning al
 **Feature scaling** is a method used to standardize the range of independent variables or features of data.
 
 The simplest method is rescaling the range of features to scale the range in [0, 1] or [−1, 1]. Selecting the target range depends on the nature of the data. The general formula is given as:
-![image.png](attachment:image.png)
+![fscaling.png](https://djinit-ai.github.io/images/fscaling1.png)
 where **x** is an original value, **x'** is the normalized value. For example, suppose that we have the students' weight data, and the students' weights span [160 pounds, 200 pounds]. To rescale this data, we first subtract 160 from each student's weight and divide the result by 40 (the difference between the maximum and minimum weights).
 
 **Mean normalization** is used to make features have approximate zero mean.
-![image.png](attachment:image.png)
+![fscaling.png](https://djinit-ai.github.io/images/fscaling2.png)
 
 Another reason why feature scaling and mean normalization are applied is that gradient descent converges much faster with feature scaling than without it.
 
@@ -38,10 +38,10 @@ The prediction error for any machine learning algorithm can be broken down into 
          A statistical model is said to be overfitted, when we train it with a lot of data. When a model gets trained with so much of data, it starts learning from the noise and inaccurate data entries in our data set. Then the model does not categorize the data correctly, because of too much of details and noise. The causes of overfitting are the non-parametric and non-linear methods because these types of machine learning algorithms have more freedom in building the model based on the dataset and therefore they can really build unrealistic models. 
 
 
-![image.png](attachment:image.png)
+![underover.png](https://djinit-ai.github.io/images/underover1.png)
 <center>**Underfitting and Overfitting in Linear Regression**</center>
  
-![image.png](attachment:image.png)
+![underover.png](https://djinit-ai.github.io/images/underover2.png)
 <center>**Underfitting and Overfitting in Logistic Regression**</center>
 
 
