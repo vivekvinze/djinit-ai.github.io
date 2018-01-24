@@ -40,7 +40,7 @@ iris.head()
 
 
 
-<div>
+<div class="table-wrapper" markdown="block">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
