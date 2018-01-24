@@ -128,11 +128,6 @@ There are two methods of initialization: Zero Initialization and Random Initiali
  - One should make sure that the features are scaled and mean normalized before applying PCA.
  - **[More insights on PCA here](https://www.dezyre.com/data-science-in-python-tutorial/principal-component-analysis-tutorial)**
 
-
-```python
-
-```
-
 # Ensembling Models
 
 Not every Machine Learning algorithm is suitable for all types of problems. SVM may work well with one dataset but it may lack in some other problem. Now let's consider a problem in classification, where we need to classify the dataset into 2 classes say, 0 and 1. Consider the following situation:
