@@ -89,14 +89,14 @@ By avoiding training all nodes on all training data, dropout decreases overfitti
 
 ![](http://fouryears.eu/wp-content/uploads/2017/12/early_stopping.png)
 
-# Learning curves
+## Learning curves
 
  - Learning curve is a plot between the training set size and the error obtained from the cost function.
  - Learning curves can be used to determine whether the model has underfit or overfit.
  - Once you know if there is high bias or high variance, you can either add more features or more examples/data as required.
  - **[An in-depth explanation of Learning curves is given here](http://mlwiki.org/index.php/Learning_Curves)**
 
-# Dataset split
+## Dataset split
  - Usually, the entire dataset is split into a training dataset, a cross-validation dataset and a test dataset.
  - The training dataset should contain the bulk of the examples, with a few examples in the CV set and test set respectively.
  - Conventionally, the dataset split is 60/20/20 percentage wise. But, this percentage split is subjective. For example, if there are a million examples in the dataset, the CV set and test set will contain 2 million examples each which is not required. So, the split should be done considering the size of the dataset.
@@ -104,7 +104,7 @@ By avoiding training all nodes on all training data, dropout decreases overfitti
  - When the training error itself is high, the model is said to have underfit or is said to have high bias.
  - **[More insights here](https://machinelearningmastery.com/how-to-choose-the-right-test-options-when-evaluating-machine-learning-algorithms/)**
 
-# Initialization methods
+## Initialization methods
 There are two methods of initialization: Zero Initialization and Random Initialization.
  - **Zero Initialization** : The parameters are initialized to zero.
  - **Random Initialization** : The parameters are initialized with random values.
@@ -112,7 +112,7 @@ There are two methods of initialization: Zero Initialization and Random Initiali
  - What we could do, instead, is to keep the weights very close to zero but make them different by initializing them to small, non-zero numbers.It has the same advantage of all-zero initialization in that it is close to the 'best guess' expectation value but the symmetry has also been broken enough for the algorithm to work.
  - Hence, it is generally advised to go with random initialization of parameters / weights.
 
-# Performance Measures
+## Performance Measures
 - We already have seen Accuracy as a performance measure. There are three more performance measures which are as follows:
 - **Precision** - It is the ratio of correctly predicted positive observations to the total predicted positive observations.
 - **Recall** - Ratio of correctly predicted positive observations to all the correctly predicted observations in the class.
@@ -121,14 +121,14 @@ There are two methods of initialization: Zero Initialization and Random Initiali
 ![](https://qph.ec.quoracdn.net/main-qimg-7341ad39241489ab063e1c65ae4ac3b1-c)
 
 
-# Principal Component Analysis (PCA)
+## Principal Component Analysis (PCA)
  - PCA is one of the most commonly used algorithms for dimensionality reduction.
  - PCA speeds up supervised learning; it is also used to prevent overfitting which is a bad use of the algorithm.
  - **Problem Formulation** - Trying to find a dimensional surface such that the projectional error is minimized.
  - One should make sure that the features are scaled and mean normalized before applying PCA.
  - **[More insights on PCA here](https://www.dezyre.com/data-science-in-python-tutorial/principal-component-analysis-tutorial)**
 
-# Ensembling Models
+## Ensembling Models
 
 Not every Machine Learning algorithm is suitable for all types of problems. SVM may work well with one dataset but it may lack in some other problem. Now let's consider a problem in classification, where we need to classify the dataset into 2 classes say, 0 and 1. Consider the following situation:
 
@@ -293,7 +293,7 @@ You can see clearly that the accuracy for the Voting Classifier is higher as com
 ## Bagging
 Bagging is a general ensemble method. It works by applying similar classifiers on small partitions of the dataset and then taking the average of all the predictions. Due to the averaging,there is reduction in variance. Unlike Voting Classifier, Bagging makes use of similar classifiers.
 
-#### Bagged KNN
+### Bagged KNN
 
 Bagging works best with models with high variance. An example for this can be Decision Tree or Random Forests. We can use KNN with small value of n_neighbours, as small value of n_neighbours.
 
@@ -335,7 +335,7 @@ print('The cross validated score for AdaBoost is:',result.mean())
 
 Looking at the above results, you might be thinking that Voting Classifier might always give the highest accuracy. But as we have discussed earlier, **not every algorithm is for every problem**. Many other factors like the hyperparameters, class imbalance, etc affect the efficiency of the model. In the above cases, if we make changes in some hyperparameters, it might be possible that AdaBoost or Bagging would give a better results. Thus we must always try out every method available.
 
-#### Further Readings:
+## Further Readings:
 
 **[Ensembling Theory](https://www.analyticsvidhya.com/blog/2015/08/introduction-ensemble-learning/)**
 
