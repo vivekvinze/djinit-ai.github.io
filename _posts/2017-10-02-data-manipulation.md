@@ -547,7 +547,7 @@ df.head(5)
 
 
 
-<div>
+<div class="table-wrapper" markdown="block">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -693,7 +693,7 @@ df[['HP','Defense','Total']].head(5)
 
 
 
-<div>
+<div class="table-wrapper" markdown="block">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -754,7 +754,7 @@ df.iloc[1:,:4].head()
 
 
 
-<div>
+<div class="table-wrapper" markdown="block">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -853,7 +853,7 @@ df[df['Total']>100].head(5)
 
 
 
-<div>
+<div class="table-wrapper" markdown="block">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -972,7 +972,7 @@ df[(df['Total']>100)&(df['HP']>50)].head(5)
 
 
 
-<div>
+<div class="table-wrapper" markdown="block">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
