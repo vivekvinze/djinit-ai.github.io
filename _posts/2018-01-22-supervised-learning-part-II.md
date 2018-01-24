@@ -291,10 +291,7 @@ df = pd.read_csv('Breast-cancer-wisconsin.csv',encoding = "ISO-8859-1")
 df.head()
 ```
 
-
-
-
-<div>
+<div class="table-wrapper" markdown="block">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
