@@ -610,8 +610,3 @@ Cons:
  - Another limitation of Naive Bayes is the assumption of independent predictors. In real life, it is almost impossible that we get a set of predictors which are completely independent.
 
 For seeing an example of Naives Bayes, click [here](http://scikit-learn.org/stable/modules/naive_bayes.html)
-
-
-```python
-
-```
