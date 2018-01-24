@@ -494,7 +494,7 @@ print(clf.predict([[-0.8, -1]]))
     [1]
 
 
- # Decision Trees
+# Decision Trees
  
 **A decision tree** is a graph that uses a branching method to illustrate every possible outcome of a decision.
 
