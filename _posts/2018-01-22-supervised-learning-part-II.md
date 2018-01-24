@@ -559,14 +559,14 @@ It is a classification technique based on Bayes’ Theorem with an assumption of
 
 Naive Bayes model is easy to build and particularly useful for very large data sets. Along with simplicity, Naive Bayes is known to outperform even highly sophisticated classification methods.
 
-Bayes theorem provides a way of calculating posterior probability P(c|x) from P(c), P(x) and P(x|c). Look at the equation below:
+Bayes theorem provides a way of calculating posterior probability P(c&#124;x) from P(c), P(x) and P(x&#124;c). Look at the equation below:
 
 ![](https://www.analyticsvidhya.com/wp-content/uploads/2015/09/Bayes_rule-300x172.png)
 
 Above,
-- P(c&#124x) is the posterior probability of class (c, target) given predictor (x, attributes).
+- P(c&#124;x) is the posterior probability of class (c, target) given predictor (x, attributes).
 - P(c) is the prior probability of class.
-- P(x&#124c) is the likelihood which is the probability of predictor given class.
+- P(x&#124;c) is the likelihood which is the probability of predictor given class.
 - P(x) is the prior probability of predictor.
 
 **How Naive Bayes Algorithm works?**
@@ -585,11 +585,11 @@ Problem: Players will play if weather is sunny. Is this statement is correct?
 
 We can solve it using above discussed method of posterior probability.
 
-P(Yes &#124 Sunny) = P( Sunny &#124 Yes) * P(Yes) / P (Sunny)
+P(Yes &#124; Sunny) = P( Sunny &#124; Yes) * P(Yes) / P (Sunny)
 
-Here we have P (Sunny &#124 Yes) = 3/9 = 0.33, P(Sunny) = 5/14 = 0.36, P( Yes)= 9/14 = 0.64
+Here we have P (Sunny &#124; Yes) = 3/9 = 0.33, P(Sunny) = 5/14 = 0.36, P( Yes)= 9/14 = 0.64
 
-Now, P (Yes &#124 Sunny) = 0.33 * 0.64 / 0.36 = 0.60, which has higher probability.
+Now, P (Yes &#124; Sunny) = 0.33 * 0.64 / 0.36 = 0.60, which has higher probability.
 
 Naive Bayes uses a similar method to predict the probability of different class based on various attributes. This algorithm is mostly used in text classification and with problems having multiple classes.
 
