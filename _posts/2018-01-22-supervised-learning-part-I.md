@@ -5,7 +5,7 @@ date:       2018-01-22 01:10:29
 summary:    Get started with Machine Learning and learn more about Regression.
 categories: machine learning, supervised learning, regression
 ---
-# Getting Started with Machine Learning
+## Getting Started with Machine Learning
 
 The classic definition of Machine Learning is: **Machine learning is a field of computer science that gives computers the ability to learn without being explicitly programmed.**
 
