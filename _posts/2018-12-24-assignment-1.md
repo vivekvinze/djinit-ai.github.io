@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      ASSIGNMENT PROBLEM SET 1 - Machine Learning 101
+title:      ASSIGNMENT 1 - Machine Learning 101
 date:       2018-01-24 02:10:29
 summary:    Practice solving regression & classification problems.
 categories: machine learning, unsupervised learning, supervised learning
