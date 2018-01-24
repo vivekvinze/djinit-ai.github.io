@@ -419,14 +419,14 @@ print(prediction)
     [2 4]
 
 
-## SVM(Support Vector Machines)
+# SVM(Support Vector Machines)
 
 “Support Vector Machine” (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. However,  it is mostly used in classification problems. In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiate the two classes very well (look at the below snapshot).
 ![](https://www.analyticsvidhya.com/wp-content/uploads/2015/10/SVM_1.png)
 
 **[This blog provides a delineated version of SVM.](https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/)**
 
-# SVM Classification:
+## SVM Classification:
 
 Unlike other classifiers, the support vector machine is explicitly told to find the best separating line. How? The support vector machine searches for the closest points, which it calls the "support vectors" (the name "support vector machine" is due to the fact that points are like vectors and that the best line "depends on" or is "supported by" the closest points).
 
@@ -435,7 +435,7 @@ Once it has found the closest points, the SVM draws a line connecting them. It d
 The support vector machine is better because when you get a new sample (new points), you will have already made a line that keeps B and A as far away from each other as possible, and so it is less likely that one will spillover across the line into the other's territory.
 ![](https://i.stack.imgur.com/kFSP3.png)
 
-# SVM Kernels
+## SVM Kernels
 The equation for making a prediction for a new input using the dot product between the input (x) and each support vector (xi) is calculated as follows:
 
 f(x) = B0 + sum(ai * (x,xi))
