@@ -442,6 +442,7 @@ f(x) = B0 + sum(ai * (x,xi))
 where the coefficients B0 and ai (for each input) must be estimated from the training data by the learning algorithm.
 
 **Linear Kernel SVM**
+
 The dot-product is called the kernel and can be re-written as:
 
 K(x, xi) = sum(x * xi)
@@ -453,6 +454,7 @@ Other kernels can be used that transform the input space into higher dimensions 
 It is desirable to use more complex kernels as it allows lines to separate the classes that are curved or even more complex. This in turn can lead to more accurate classifiers.
 
 **Polynomial Kernel SVM**
+
 Instead of the dot-product, we can use a polynomial kernel, for example:
 
 K(x,xi) = 1 + sum(x * xi)^d
@@ -460,6 +462,7 @@ K(x,xi) = 1 + sum(x * xi)^d
 Where the degree of the polynomial must be specified by hand to the learning algorithm. When d=1 this is the same as the linear kernel. The polynomial kernel allows for curved lines in the input space.
 
 **Radial Kernel SVM**
+
 Finally, we can also have a more complex radial kernel. For example:
 
 K(x,xi) = exp(-gamma * sum((x – xi^2))
