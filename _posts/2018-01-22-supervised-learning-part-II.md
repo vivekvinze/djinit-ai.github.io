@@ -11,7 +11,7 @@ In machine learning and statistics, classification is the problem of identifying
 
 In this blog, we will learn about **Logistic regression and SVM(Support Vector Machines)**.
 
-### Logistic Regression
+## Logistic Regression
 
 Logistic Regression is a classification algorithm. It is used to predict a binary outcome (1 / 0, Yes / No, True / False) given a set of independent variables. To represent binary / categorical outcome, we use dummy variables. You can also think of logistic regression as a special case of linear regression when the outcome variable is categorical, where we are using log of odds as dependent variable. In simple words, it predicts the probability of occurrence of an event by fitting data to a logit function.
 
@@ -21,7 +21,7 @@ Logistic Regression is a classification algorithm. It is used to predict a binar
 
 **[Sklearn Implementation](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html#)**
 
-#### Logistic Regression from Scratch
+### Logistic Regression from Scratch
 
 
 ```python
@@ -112,7 +112,6 @@ sepalPlt = sb.FacetGrid(iris, hue="Species", size=6).map(plt.scatter, "SepalLeng
 plt.title('')
 plt.show()
 ```
-
 
 ![png](https://djinit-ai.github.io/images/output_10_0.png)
 
@@ -273,6 +272,7 @@ for flower in Species:
 
 ```python
 #Predictions
+
 P = sigmoid(X_test.dot(all_theta.T)) #probability for each flower
 p = [Species[np.argmax(P[i, :])] for i in range(X_test.shape[0])]
 
@@ -394,6 +394,7 @@ df.replace('?',-99999, inplace=True)
 df.drop(['id'],1, inplace=True)
 
 #Seperating features and labels
+
 X = np.array(df.drop(['class'],1))
 y = np.array(df['class'])
 
@@ -409,6 +410,7 @@ accuracy = clf.score(X_test,y_test)
 print(accuracy)
 
 #Making prediction for new set of values
+
 test_measures = np.array([[4,2,1,1,1,2,3,2,1],[10,7,7,1,4,1,1,2,1]])
 prediction = clf.predict(test_measures)
 
@@ -419,14 +421,14 @@ print(prediction)
     [2 4]
 
 
-# SVM(Support Vector Machines)
+## SVM(Support Vector Machines)
 
 “Support Vector Machine” (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. However,  it is mostly used in classification problems. In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiate the two classes very well (look at the below snapshot).
 ![](https://www.analyticsvidhya.com/wp-content/uploads/2015/10/SVM_1.png)
 
 **[This blog provides a delineated version of SVM.](https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/)**
 
-## SVM Classification:
+### SVM Classification:
 
 Unlike other classifiers, the support vector machine is explicitly told to find the best separating line. How? The support vector machine searches for the closest points, which it calls the "support vectors" (the name "support vector machine" is due to the fact that points are like vectors and that the best line "depends on" or is "supported by" the closest points).
 
@@ -435,7 +437,7 @@ Once it has found the closest points, the SVM draws a line connecting them. It d
 The support vector machine is better because when you get a new sample (new points), you will have already made a line that keeps B and A as far away from each other as possible, and so it is less likely that one will spillover across the line into the other's territory.
 ![](https://i.stack.imgur.com/kFSP3.png)
 
-## SVM Kernels
+### SVM Kernels
 The equation for making a prediction for a new input using the dot product between the input (x) and each support vector (xi) is calculated as follows:
 
 f(x) = B0 + sum(ai * (x,xi))
@@ -494,7 +496,7 @@ print(clf.predict([[-0.8, -1]]))
     [1]
 
 
-# Decision Trees
+## Decision Trees
  
 **A decision tree** is a graph that uses a branching method to illustrate every possible outcome of a decision.
 
@@ -553,7 +555,7 @@ clf = clf.fit(iris.data, iris.target)
 
 For rest of the code, check the below [link:](http://scikit-learn.org/stable/modules/tree.html)
 
-# **Naive Bayes**
+## **Naive Bayes**
 
 It is a classification technique based on Bayes’ Theorem with an assumption of independence among predictors. In simple terms, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature. For example, a fruit may be considered to be an apple if it is red, round, and about 3 inches in diameter. Even if these features depend on each other or upon the existence of the other features, all of these properties independently contribute to the probability that this fruit is an apple and that is why it is known as ‘Naive’.
 
