@@ -12,10 +12,13 @@ Since the range of values of raw data varies widely, in some machine learning al
 **Feature scaling** is a method used to standardize the range of independent variables or features of data.
 
 The simplest method is rescaling the range of features to scale the range in [0, 1] or [−1, 1]. Selecting the target range depends on the nature of the data. The general formula is given as:
+
 ![fscaling.png](https://djinit-ai.github.io/images/fscaling1.png)
+
 where **x** is an original value, **x'** is the normalized value. For example, suppose that we have the students' weight data, and the students' weights span [160 pounds, 200 pounds]. To rescale this data, we first subtract 160 from each student's weight and divide the result by 40 (the difference between the maximum and minimum weights).
 
 **Mean normalization** is used to make features have approximate zero mean.
+
 ![fscaling.png](https://djinit-ai.github.io/images/fscaling2.png)
 
 Another reason why feature scaling and mean normalization are applied is that gradient descent converges much faster with feature scaling than without it.
