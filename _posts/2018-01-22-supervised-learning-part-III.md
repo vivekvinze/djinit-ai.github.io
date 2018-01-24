@@ -49,16 +49,15 @@ The prediction error for any machine learning algorithm can be broken down into 
 
 
 ### How to avoid underfitting:
-         - Adding more number of features
-         - Adding polynomial features
+ - Adding more number of features
+ - Adding polynomial features
 
 
 
 ### How to avoid overfitting:
-         - Get more data
-         - Reduce number of features by feature selection
-         - Regularization
-                 https://www.analyticsvidhya.com/blog/2015/02/avoid-over-fitting-regularization/
+ - Get more data
+ - Reduce number of features by feature selection
+ - [Regularization](https://www.analyticsvidhya.com/blog/2015/02/avoid-over-fitting-regularization)
                  
 
         
@@ -87,6 +86,7 @@ By avoiding training all nodes on all training data, dropout decreases overfitti
  - Up to a point, this improves the learner's performance on data outside of the training set.
  - Past that point, however, improving the learner's fit to the training data comes at the expense of increased generalization error.
  - Early stopping rules provide guidance as to how many iterations can be run before the learner begins to over-fit.
+
 ![](http://fouryears.eu/wp-content/uploads/2017/12/early_stopping.png)
 
 # Learning curves
