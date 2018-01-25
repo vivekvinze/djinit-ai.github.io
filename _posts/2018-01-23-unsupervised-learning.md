@@ -119,7 +119,7 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![png](https://djinit-ai.github.io/images/output_6_0.png)
 
 
 We can see that originally all the input points are unclassified, i.e they belong to the same class. Now we will divide them into clusters.
@@ -198,7 +198,7 @@ plt.show()
 ```
 
 
-![png](output_13_0.png)
+![png](https://djinit-ai.github.io/images/output_13_0.png)
 
 
 The above plot shows data clustered into 2 classes. Lets try K=4.
@@ -231,7 +231,7 @@ plt.show()
 
 
 
-![png](output_15_1.png)
+![png](https://djinit-ai.github.io/images/output_15_1.png)
 
 
 We can clearly see that the points are now shifted to other clusters depending upon the distance from the centroids.
@@ -253,7 +253,7 @@ plt.show()
 ```
 
 
-![png](output_17_0.png)
+![png](https://djinit-ai.github.io/images/output_17_0.png)
 
 
 We can see that the variance reduces significantly from 2 to 3. Thus the number of clusters can be 3 or 4.
@@ -271,8 +271,3 @@ There are many other Unsupervised learning algorothims other than clustering. Fo
 **5) [Topic Modeling and LDA (Text Analysis and NLP)](https://medium.com/mlreview/topic-modeling-with-scikit-learn-e80d33668730)**
 
 **6) [DBSCAN](https://blog.dominodatalab.com/topology-and-density-based-clustering/)**
-
-
-```python
-
-```
