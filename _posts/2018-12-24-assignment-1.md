@@ -13,7 +13,7 @@ categories: machine learning, unsupervised learning, supervised learning
 
 ## Problem 1.2 - Mushroom Classification Problem
 
- - Another classification problem for you that you have to solve from scratch. Check out [this]() Kaggle page to know more about the problem statement.
+ - Another classification problem for you that you have to solve from scratch. Check out [this](https://www.kaggle.com/uciml/mushroom-classification) Kaggle page to know more about the problem statement.
  - The dataset is provided [here](https://djinit-ai.github.io/data/mushrooms.csv). Your aim  is to classify the mushroom species according to their edibility.
 
 ## Problem 1.3 - Linear Regression Dataset
