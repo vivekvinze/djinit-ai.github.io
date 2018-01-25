@@ -45,8 +45,7 @@ The prediction error for any machine learning algorithm can be broken down into 
 <center>**Underfitting and Overfitting in Linear Regression**</center>
  
 ![underover.png](https://djinit-ai.github.io/images/underover2.png)
-<center>**Underfitting and Overfitting in Logistic Regression**</center>
-
+**Underfitting and Overfitting in Logistic Regression**
 
 ### How to avoid underfitting:
  - Adding more number of features
