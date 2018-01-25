@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      UnSupervised Learning
+title:      Unsupervised Learning
 date:       2018-01-23 02:10:29
 summary:    Machine Learning 101&#58; An In-Depth Guide - Unsupervised Learning.
 categories: machine learning, unsupervised learning
 ---
-## What is Un-Supervised Learning?
+## What is Unsupervised Learning?
 
 Unsupervised learning is where you only have input data (X) and no corresponding output variables.The goal for unsupervised learning is to model the underlying structure or distribution in the data in order to learn more about the data. Thus as we don't have the class-labels(the output classes for the input data), algorithms are left to their own formulations to discover and present the interesting structure in the data. Thus the algorithms try to find some similarity or some kind of association between the input data, and try to seperate or cluster the data that are similar to each other.
 
