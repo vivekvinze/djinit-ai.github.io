@@ -261,7 +261,7 @@ See how the final output closely approximates the true output [0, 1, 1, 0]. If y
 
 ### Neural Network code using Scikit-learn
 
-* **An example from sklearn on MNIST using MLPClassifier**
+* **An example from [sklearn](http://scikit-learn.org/stable/auto_examples/neural_networks/plot_mnist_filters.html#sphx-glr-auto-examples-neural-networks-plot-mnist-filters-py) on MNIST using MLPClassifier**
 
 * **The following is the solution of Assignment 1 - Problem 1.1**
 
