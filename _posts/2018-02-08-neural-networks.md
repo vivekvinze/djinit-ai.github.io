@@ -69,9 +69,10 @@ Once the network has been trained with enough learning examples, it reaches a po
 
 The following MIT videos will provide a comprehensive explanation of the working of NN:
 
-<center>[![Neural Nets - Part I](http://img.youtube.com/vi/uXt8qF2Zzfo/0.jpg)](http://www.youtube.com/watch?v=uXt8qF2Zzfo "Neural Nets - Part I")</center>
+[![Neural Nets - Part I](http://img.youtube.com/vi/uXt8qF2Zzfo/0.jpg)](http://www.youtube.com/watch?v=uXt8qF2Zzfo "Neural Nets - Part I")
 
-<center>[![Neural Nets - Part II](http://img.youtube.com/vi/VrMHA3yX_QI/0.jpg)](http://www.youtube.com/watch?v=VrMHA3yX_QI "Neural Nets - Part II")</center>
+
+[![Neural Nets - Part II](http://img.youtube.com/vi/VrMHA3yX_QI/0.jpg)](http://www.youtube.com/watch?v=VrMHA3yX_QI "Neural Nets - Part II")
 
 ## Activation functions
 
