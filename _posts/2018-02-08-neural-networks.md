@@ -1,6 +1,10 @@
-
-# Neural Networks
-
+---
+layout:     post
+title:      Neural Networks
+date:       2018-02-08 02:10:29
+summary:    Why, where, and how deep neural networks work.
+categories: machine learning, supervised learning, neural network, deep networks
+---
 ## Background
 
 Up until now we have seen the typical working of a machine learning algorithm. We learn a function f to map input X (independent features) to output Y (dependent label) with minimum loss on the test data.
@@ -17,7 +21,7 @@ Deep learning, a part of Machine Learning, is really good at learning _f_, parti
 
 To understand neural networks, let's first explore the inspiration behind ANN - our brains. The human brain can be described as a biological neural network — an interconnected web of neurons transmitting elaborate patterns of electrical signals. Dendrites receive input signals and, based on those inputs, fire an output signal via an axon. Or something like that. How the human brain actually works is an elaborate and complex mystery, one that we certainly are not going to attempt to tackle in this blog.
 
-![nervecell.gif](http://dynamicscience.com.au/tester/solutions1/magicofsci/nervecell.gif)
+![nervecell.gif](https://djinit-ai.github.io/images/nervecell.gif)
 
 With our elementary understanding of the brain function, we can abstract the aforementioned concept by constructing a set a “Inputs” neurons representing the dendrites, this will take the shape of a grid of pixels. The information is then passed to a “hidden” layer which represents the layers within our brain via axon. Finally, this hidden layer connects to an output layer, the equivalent to the motor neurons which causes us to perform an action.
 
@@ -27,11 +31,11 @@ To understand NN, start with perceptrons at [neuralnetworksanddeeplearning.com](
 
 We will start by understanding some terminologies that make up a neural network.
 
-![net1.png](http://neuralnetworksanddeeplearning.com/images/tikz10.png)
+![net1.png](https://djinit-ai.github.io/images/net1.png)
 
 A typical neural network has anything from a few dozen to hundreds, thousands, or even millions of artificial neurons called units arranged in a series of layers, each of which connects to the layers on either side. Some of them, known as input units, are designed to receive various forms of information from the outside world that the network will attempt to learn about, recognize, or otherwise process. Other units sit on the opposite side of the network and signal how it responds to the information it's learned; those are known as output units. In between the input units and output units are one or more layers of hidden units, which, together, form the majority of the artificial brain. Most neural networks are fully connected, which means each hidden unit and each output unit is connected to every unit in the layers either side. The connections between one unit and another are represented by a number called a weight, which can be either positive (if one unit excites another) or negative (if one unit suppresses or inhibits another). The higher the weight, the more influence one unit has on another. (This corresponds to the way actual brain cells trigger one another across tiny gaps called synapses.)
 
-![net2.png](http://neuralnetworksanddeeplearning.com/images/tikz11.png)
+![net2.png](https://djinit-ai.github.io/images/net2.png)
 
 Such multiple layer networks are sometimes called MultiLayer Perceptrons (MLP), despite being made up of sigmoid neurons, not perceptrons. Learn more about [MLPs](http://scikit-learn.org/stable/modules/neural_networks_supervised.html#neural-networks-supervised) and how to use them with scikit code at [sklearn.neural_network](http://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html)
 
@@ -41,7 +45,7 @@ Again, if we take an analogy with our brain. Brains are made up of neurons which
 
 Taking another example network, a deep neural network looks something like this:
 
-![net3.png](https://www.kdnuggets.com/wp-content/uploads/deep-neural-network.jpg)
+![net3.png](https://djinit-ai.github.io/images/net3.png)
 
 In a gist, this is just a giant mathematical equation with millions of terms and lots of parameters. The input X is, say, a greyscale image represented by a width-by-height matrix of pixel brightnesses. The output Y is a vector of class probabilities. This means we have
 as an output the probability of each class being the correct label. If this neural net is
@@ -55,7 +59,7 @@ regression earlier to train these parameters in a way that minimizes loss. So wi
 a lot of examples and a lot of gradient descent, the model can learn how to classify
 images of animals (for example) correctly. And that, in a nutshell’s nutshell, is “deep learning”.
 
-![neuron.png](file:///home/daru/Desktop/neuron.png)
+![neuron.png](https://djinit-ai.github.io/images/neuron.png)
 
 Information flows through a neural network in two ways. When it's learning (being trained) or operating normally (after being trained), patterns of information are fed into the network via the input units, which trigger the layers of hidden units, and these in turn arrive at the output units. This common design is called a feedforward network. Not all units "fire" all the time. Each unit receives inputs from the units to its left, and the inputs are multiplied by the weights of the connections they travel along. Every unit adds up all the inputs it receives in this way and (in the simplest type of network) if the sum is more than a certain threshold value, the unit "fires" and triggers the units it's connected to (those on its right).
 
@@ -81,7 +85,7 @@ _f_(x)= b + x<sub>1</sub>&ast;w<sub>1</sub> + x<sub>2</sub>&ast;w<sub>2</sub> + 
 
 Logistic Regression: We put the input z through a **non-linear "activation function"** -- the logistic sigmoid function where.
 
-![sig1.png](https://qph.ec.quoracdn.net/main-qimg-2f0e7ccc8fd54e238ae46a3d5fcc6908)
+![sig1.png](https://djinit-ai.github.io/images/sig1.png)
 
 <p>We "squash" the linear net input through a non-linear function, which has the nice property that it returns the conditional probability P(y=1 | x) (i.e., the probability that a sample x belongs to class 1).</p>
 
@@ -110,12 +114,12 @@ Read this [StackOverflow](https://stats.stackexchange.com/questions/154879/a-lis
 
 We have already mentioned about the information flow in a neural network and introduced the terms "feedforward" and "backprop". To give a recap:
 
-![forward-propagation.png](https://github.com/rasbt/python-machine-learning-book/raw/master/faq/visual-backpropagation/forward-propagation.png "forward-propagation")
+![forward-propagation.png](https://djinit-ai.github.io/images/forward-propagation.png "forward-propagation")
 
 <center>Forward propagation</center>
 
 
-![backpropagation.png](https://github.com/rasbt/python-machine-learning-book/raw/master/faq/visual-backpropagation/backpropagation.png "backprop")
+![backpropagation.png](https://djinit-ai.github.io/images/backpropagation.png "backprop")
 <center>Back propagation</center>
 
 Read this [blog post](https://www.kdnuggets.com/2016/06/visual-explanation-backpropagation-algorithm-neural-networks.html) for a visual explanation of backprop algorithm.
@@ -280,20 +284,7 @@ features_train, features_test, labels_train, labels_test = train_test_split(feat
 features.head()
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
+<div class="table-wrapper" markdown="block">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -451,20 +442,7 @@ features.head()
 labels.head()
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
+<div class="table-wrapper" markdown="block">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
