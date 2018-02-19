@@ -82,7 +82,7 @@ Linear Regression: The goal of (ordinary least-squares) linear regression is to 
 
 So, we compute a linear combination of weights and inputs.
 
-_f_(x)= b + x<sub>1</sub>&ast;w<sub>1</sub> + x<sub>2</sub>&ast;w<sub>2</sub> + ... x<sub>n</sub>&ast;w<sub>n</sub> = z
+_f_(x)= b + x<sub>1</sub> &ast; w<sub>1</sub> + x<sub>2</sub> &ast;w <sub>2</sub> + ... x<sub>n</sub> &ast;w <sub>n</sub> = z
 
 Logistic Regression: We put the input z through a **non-linear "activation function"** -- the logistic sigmoid function where.
 
