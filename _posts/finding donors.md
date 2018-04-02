@@ -1,3 +1,10 @@
+---
+layout:     post
+title:      Supervised Learning&#58; Part II
+date:       2018-03-22 01:19:29
+summary:    Continue your quest for ML with Classification.
+categories: machine learning, supervised learning, classification
+---
 **Supervised learning** is the **machine learning** task
 of **learning** a function that maps an input to an output based on
 example input-output pairs. It infers a function from
