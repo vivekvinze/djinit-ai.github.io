@@ -92,7 +92,6 @@ server-side version that runs on Node.js, but we won’t be using that in the tu
 
 ```JavaScript
 npm install @tensorflow/tfjs ​
-
 ```
 
 ``` JavaScript
@@ -168,12 +167,7 @@ implement this visualization of our model in the browser.
  - Open a text editor of your choice and create a file index.html.​ Save the following
 code in this file:
 
-```html
-<!DOCTYPE
-html>
-<​ html​ >
-<​ head​ >
-<​ meta​ ​ charset​ = ​ "UTF-8"​ >
+```HTML
 <​ meta​ ​ http-equiv​ = ​ "X-UA-Compatible"​ ​ content​ = ​ "IE=edge"​ >
 <​ meta​ ​ name​ = ​ "viewport"​ ​ content​ = ​ "width=device-width,
 initial-scale=1"​ >
@@ -198,8 +192,9 @@ src​ = ​ "https://unpkg.com/ml5@0.1.1/dist/ml5.min.js"​ ></​ script​ >
 </​ html​ >
 ```
  - **Next, create another file ​index.js and write the following code in it**
+
  ```JavaScript
- let​ mobilenet;
+let​ mobilenet;
 let​ video;
 let​ label ​ = ​ ​ ''​ ;
 // when model is ready make predictions
