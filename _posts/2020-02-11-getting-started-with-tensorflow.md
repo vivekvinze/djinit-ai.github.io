@@ -90,15 +90,13 @@ layers API.
 Here’s how to install Tensoflow.js for the client side. There is also a
 server-side version that runs on Node.js, but we won’t be using that in the tutorial:
 
-```python
+```JavaScript
+npm install @tensorflow/tfjs ​
 
-npm install @tensorflow/tfjs ​ #npm is a Javascript package manager
-
-#or use script tags, to avoid installing anything:
 ```
 
 ``` JavaScript
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> </script>
+<script src = "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> </script>
 ```
 ## Building a Linear Regresion Model in TensorFlow.js
 
@@ -126,36 +124,38 @@ let b = tf.scalar(Math.random()).variable();
  For Our Model, we use simply y = mx + b,
 
  ```JavaScript
- const model = x =>m.mul(x).add(b);
+  const model = x =>m.mul(x).add(b);
  ```
  - **Make the optimizer.:**
  This one is a stochastic gradient optimizer, which means
  that our results will vary slightly each time we run this script. The upside of using
  the stochastic approach is that it’s faster.
  ```JavaScript
-const learningRate = 0.01;
-const optimizer = tf.train.sgd(learningRate);
+  const learningRate = 0.01;
+  const optimizer = tf.train.sgd(learningRate);
  ```
  - **Define a loss function:**
  Mean Squared Error:
  ```JavaScript
-const loss = (pred, actual) =>
-pred.sub(actual).square().mean();
+ const loss = (pred, actual) =>
+ pred.sub(actual).square().mean();
  ```
  - **Train the model:**
- ​ With each loop, the model variables are adjusted to minimize
+With each loop, the model variables are adjusted to minimize
 the output of the loss function:
+
 ```JavaScript
-for (let i = 0; i < 10; ++i) {
-optimizer.minimize(() => loss(model(xs), ys));
-}
+  for (let i = 0; i < 10; ++i) {
+  optimizer.minimize(() => loss(model(xs), ys));
+  }
 ```
 - **Use the model to predict outcomes. We can get predictions for a single
 value, or an array of values:**
+
 ```JavaScript
-const singlePrediction = model(2.3).dataSync();
+  const singlePrediction = model(2.3).dataSync();
 //predicted result: 2.508747100830078
-const arrayPrediction = model([2.3, 11, 100]).dataSync();
+  const arrayPrediction = model([2.3, 11, 100]).dataSync();
 // predicted result: [2.508747100830078, 10.984630584716797,97.69194030761719]
 ```
 <!-- ![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/pic5_2020_02_11.png?raw=true) -->
@@ -168,7 +168,7 @@ implement this visualization of our model in the browser.
  - Open a text editor of your choice and create a file index.html.​ Save the following
 code in this file:
 
-```
+```html
 <!DOCTYPE
 html>
 <​ html​ >
