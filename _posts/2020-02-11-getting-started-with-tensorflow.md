@@ -90,7 +90,7 @@ layers API.
 Here’s how to install Tensoflow.js for the client side. There is also a
 server-side version that runs on Node.js, but we won’t be using that in the tutorial:
 
-```JavaScript
+```
 npm install @tensorflow/tfjs ​
 ```
 
@@ -167,7 +167,7 @@ implement this visualization of our model in the browser.
  - Open a text editor of your choice and create a file index.html.​ Save the following
 code in this file:
 
-```HTML
+```
 <​ meta​ ​ http-equiv​ = ​ "X-UA-Compatible"​ ​ content​ = ​ "IE=edge"​ >
 <​ meta​ ​ name​ = ​ "viewport"​ ​ content​ = ​ "width=device-width,
 initial-scale=1"​ >
