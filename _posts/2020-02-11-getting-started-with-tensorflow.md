@@ -86,7 +86,7 @@ accurate model quickly, using only a small amount of data.
 train, and run models entirely in the browser using Javascript and a high-level
 layers API.
 
-##Installation:
+## Installation:
 Here’s how to install Tensoflow.js for the client side. There is also a
 server-side version that runs on Node.js, but we won’t be using that in the tutorial:
 
@@ -98,8 +98,7 @@ npm install @tensorflow/tfjs ​ #npm is a Javascript package manager
 ```
 
 ``` JavaScript
-<script
-src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> </script>
 ```
 ## Building a Linear Regresion Model in TensorFlow.js
 
@@ -123,3 +122,126 @@ the model with some values, to give gradient descent something to tweak:
 let m = tf.scalar(Math.random()).variable();
 let b = tf.scalar(Math.random()).variable();
 ```
+ - **Define the Model :**
+ For Our Model, we use simply y = mx + b,
+
+ ```JavaScript
+ const model = x =>m.mul(x).add(b);
+ ```
+ - **Make the optimizer.:**
+ This one is a stochastic gradient optimizer, which means
+ that our results will vary slightly each time we run this script. The upside of using
+ the stochastic approach is that it’s faster.
+ ```JavaScript
+const learningRate = 0.01;
+const optimizer = tf.train.sgd(learningRate);
+ ```
+ - **Define a loss function:**
+ Mean Squared Error:
+ ```JavaScript
+const loss = (pred, actual) =>
+pred.sub(actual).square().mean();
+ ```
+ - **Train the model:**
+ ​ With each loop, the model variables are adjusted to minimize
+the output of the loss function:
+```JavaScript
+for (let i = 0; i < 10; ++i) {
+optimizer.minimize(() => loss(model(xs), ys));
+}
+```
+- **Use the model to predict outcomes. We can get predictions for a single
+value, or an array of values:**
+```JavaScript
+const singlePrediction = model(2.3).dataSync();
+//predicted result: 2.508747100830078
+const arrayPrediction = model([2.3, 11, 100]).dataSync();
+// predicted result: [2.508747100830078, 10.984630584716797,97.69194030761719]
+```
+<!-- ![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/pic5_2020_02_11.png?raw=true) -->
+And that’s it! Below is a similar graph of the data used to train the model and a line
+representing our model’s predictions at each value for x. Use the p5.js library to
+implement this visualization of our model in the browser.
+
+## Building an Image Classification Model in your Browser using a Webcam
+
+ - Open a text editor of your choice and create a file index.html.​ Save the following
+code in this file:
+
+```
+<!DOCTYPE
+html>
+<​ html​ >
+<​ head​ >
+<​ meta​ ​ charset​ = ​ "UTF-8"​ >
+<​ meta​ ​ http-equiv​ = ​ "X-UA-Compatible"​ ​ content​ = ​ "IE=edge"​ >
+<​ meta​ ​ name​ = ​ "viewport"​ ​ content​ = ​ "width=device-width,
+initial-scale=1"​ >
+<!-- title of the page -->
+<​ title​ >image_classification</​ title​ >
+<!-- load processing library-->
+<​ script
+src​ = ​ "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"​ ></​ s
+cript​ >
+<​ script
+src​ = ​ "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.
+min.js"​ ></​ script​ >
+<!-- load ml5.js --><​ script
+src​ = ​ "https://unpkg.com/ml5@0.1.1/dist/ml5.min.js"​ ></​ script​ >
+<!-- load index.js -->
+<​ script​ ​ src​ = ​ "index.js"​ ></​ script​ >
+</​ head​ >
+<​ body​ >
+<!-- this is where the video will be shown -->
+<​ video​ ​ id​ = ​ "video"​ ></​ video​ >
+</​ body​ >
+</​ html​ >
+```
+ - **Next, create another file ​index.js and write the following code in it**
+ ```JavaScript
+ let​ mobilenet;
+let​ video;
+let​ label ​ = ​ ​ ''​ ;
+// when model is ready make predictions
+function​ ​ modelReady​ () {
+console​ . ​ log​ ( ​ 'Model is ready!!!'​ );
+mobilenet.​ predict​ (gotResults);
+}
+function​ ​ gotResults​ (error, results) {
+if​ (error) {
+console​ . ​ error​ (error);
+} ​ else​ {label ​ = ​ results[​ 0 ​ ].​ className​ ;
+// loop the inference by calling itself
+mobilenet.​ predict​ (gotResults);
+}
+}
+// setup function
+function​ ​ setup​ () {
+createCanvas​ ( ​ 640​ , ​ 550​ );
+// ml5 to create video capture
+video ​ = ​ ​ createCapture​ ( ​ VIDEO​ );
+video.​ hide​ ();
+background​ ( ​ 0 ​ );
+// load the MobileNet and apply it on video feed
+mobilenet ​ = ​ ml5.​ imageClassifier​ ( ​ 'MobileNet'​ , video,
+modelReady);
+}
+function​ ​ draw​ () {
+background​ ( ​ 0 ​ );
+// show video
+image​ (video, ​ 0 ​ , ​ 0 ​ );
+fill​ ( ​ 255​ );
+textSize​ ( ​ 32​ );
+// show prediction label
+text​ (label, ​ 10​ , height ​ - ​ ​ 20​ );}
+```
+Save both the files and open your ​ index.html ​ file in a browser like Google Chrome
+or Mozilla Firefox. That’s it! You have now created an app that can classify
+images in real-time using your webcam in the browser itself! Here is how it looks.
+
+ - In the above example, we used a pre-trained image classification model called
+MobileNet
+ - We used ​ ml5.js​ , a library built on top of TensorFlow.js, to load the MobileNet
+model into our browser and perform inference on the video feed
+ - We also leveraged the ​ P5.js library to process the video feed and display labels
+on the video itself
