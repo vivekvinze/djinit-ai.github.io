@@ -15,6 +15,7 @@ In Tensorflow all the computations involves tensors where tensors are the standa
 Tensors are nothing but a de facto for representing the data in deep learning.
 
 <!-- ![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/pic1_2020_02_11.png?raw=true) -->
+![Image of Yaktocat](![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png))
 
 Deep Learning in the image above, tensors are just multidimensional arrays, that allows you to represent data having higher dimensions. In general, Deep Learning you deal with high dimensional data sets where dimensions refer to different features present in the data set. In fact, the name “TensorFlow” has been derived from the operationswhich neural networks perform on tensors. It’s literally a flow of tensors. Since, you have understood what are tensors, let us move ahead in this TensorFlow tutorial and understand – what is TensorFlow?
 
