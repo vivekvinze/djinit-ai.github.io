@@ -238,6 +238,7 @@ Save both the files and open your ​ index.html ​ file in a browser like Goog
 or Mozilla Firefox. That’s it! You have now created an app that can classify
 images in real-time using your webcam in the browser itself! Here is how it looks.
 
+![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/result2.png)
  - In the above example, we used a pre-trained image classification model called
 MobileNet
  - We used ​ ml5.js​ , a library built on top of TensorFlow.js, to load the MobileNet
