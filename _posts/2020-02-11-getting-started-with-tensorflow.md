@@ -161,7 +161,7 @@ value, or an array of values:**
   const arrayPrediction = model([2.3, 11, 100]).dataSync();
 // predicted result: [2.508747100830078, 10.984630584716797,97.69194030761719]
 ```
-<!-- ![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/pic5_2020_02_11.png?raw=true) -->
+![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/result1.png)
 And that’s it! Below is a similar graph of the data used to train the model and a line
 representing our model’s predictions at each value for x. Use the p5.js library to
 implement this visualization of our model in the browser.
