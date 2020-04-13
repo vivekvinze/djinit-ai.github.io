@@ -36,6 +36,7 @@ Next up, in this TensorFlow tutorial we will be discussing about TensorFlow code
 <!-- ![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/pic3_2020_02_11.png?raw=true) -->
 
 ## TensorFlow Technical Architecture:
+![Image of Yaktocat](https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/05/Technical-Architecture.png)
 
  - Sources create Loaders for Servable Versions, then Loaders are sent as
 Aspired Versions to the Manager, which loads and serves them to client
