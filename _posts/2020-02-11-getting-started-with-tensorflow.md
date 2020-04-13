@@ -72,6 +72,8 @@ well. Underneath it all ​ TensorFlow.js is powered by ​ WebGL ​ , a ​ Ja
 rendering 2D and 3D graphics within any web browser without the plug-ins.
 
 <!-- ![png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/pic4_2020_02_11.png?raw=true) -->
+![Image of Yaktocat](https://miro.medium.com/max/3200/0*oY2OG7MFBN4eK1AN.)
+
 
 ## What can you do with TensorFlow.js?
 
