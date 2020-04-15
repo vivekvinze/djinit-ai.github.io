@@ -12,7 +12,7 @@ It’s pretty easy to read your emails while you’re on the go, but responding 
 ​available in Inbox by Gmail , saves you time by suggesting quick responses to your messages. The feature drives 12 percent 
 of replies in Inbox on mobile. And it has also been started for Android and iOS .
 
-![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss1.png)
 
 
 From the above we can see that the system can find responses that are on point, without an overlap of keywords or even 
