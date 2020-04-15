@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Getting started with TensorFlow.js
-date:       2020-02-11 12:19:29
-summary:    Introduction to TensorFlow.js
-categories: python,tensorflow, JavaScript
+title:      Smart Reply in Gmail
+date:       2020-04-15 12:19:29
+summary:    Introduction to smart reply system in Gmail
+categories: python
 ---
 
 ## Smart Reply in Gmail
@@ -81,3 +81,35 @@ Given that the model is trained on a corpus of real messages, we have to account
 This requires a searching and scoring mechanism that is not a function of the size of the response set! **The solution is to organise the elements of the response into a trie, and then use a beam search to explore hypotheses that appear in the trie. T** his search process has complexity O(bl) for beam size b and maximum response length l. Both b and l are typically in the range of 10-30, so this method dramatically reduces the time to find the top responses and is a critical element of making this system deployable.
 
 ## Ensuring diversity in responses
+
+![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+
+**At this point we have an ordered list of possible responses, but it doesn’t make sense to just take the top three (Smart Reply only shows the user three options). It’s quite likely there is redundancy in the possible replies, e.g. three variations of “I’ll be there.”**
+
+The job of the diversity component is to select a more varied set of suggestions using two strategies: omitting redundant responses and enforcing negative or positive responses.
+
+**How is this done?**
+
+Responses are classified as positive, neutral, or negative. If the top two responses contain at least one positive response, and no negative response, then the third response is replaced with a negative one. (The same logic is also applied in reverse in the rarer case of exclusively negative responses).
+
+## Generating the response set in the first place
+
+Response set generation begins with anonymised short response sentences from the pre-processed training data, yielding a few million unique sentences. These are parsed used a dependency parser and the resulting syntactic structure is used to generate a canonicalised representation. For example, “Thanks for your kind update”, “Thank you for updating!”, and “Thanks for the status update” may all get mapped to “Thanks for the update.”
+
+Consider the below figure which contains anonymised short sentences for testing the model
+
+![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+
+At the next step response are clustered into semantic clusters where each represents an intent. The process is seeded with a few manually defined clusters sampled from the top frequent messages.
+
+![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+
+We then construct a base graph with frequent response messages as nodes (VR). For each response message, we further extract a set of lexical features (ngrams and skip-grams of length up to 3) and add these as “feature” nodes (VF) to the same graph. Edges are created between a pair of nodes (u, v) where u ∈ VR and v ∈ VF if v belongs to the feature set for response u.
+![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+
+From this graph a semantic labelling is learned using the EXPANDER framework. The top scoring output label for a given node is assigned as the node’s semantic intent. The algorithm is run over a number of iterations, each time introducing another batch of randomly sampled new responses from the remaining unlabeled nodes in the graph. Finally, the top ​k members for each semantic cluster are extracted, sorted by their label scores.
+
+The set of (response, cluster label) pairs are then validated by human raters... The result is an automatically generated and validated set of high quality response messages labeled with semantic intent.
+Following code helps to get the desired smart reply
+
+![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
