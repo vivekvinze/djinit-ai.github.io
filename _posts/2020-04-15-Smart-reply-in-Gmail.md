@@ -29,7 +29,7 @@ It uses the the sequence-to sequence learning framework , which uses long short 
 
 
 
-![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss2.png)
 
 ## Pre-processing
 
@@ -51,7 +51,7 @@ An incoming email message is pre-processed before being fed into the Smart Reply
 
 For example, here first dataset is loaded and then cleaned and transformed into target dataset.
 
-![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss3.png)
 
 ## Trigger Response
 
