@@ -66,7 +66,7 @@ If the probability score output by the triggering component is greater than a pr
 
 Following code helps in implementing Trigger Response
 
-![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss4.png)
 
 ## Response selection
 
@@ -82,7 +82,7 @@ This requires a searching and scoring mechanism that is not a function of the si
 
 ## Ensuring diversity in responses
 
-![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss5.png)
 
 **At this point we have an ordered list of possible responses, but it doesn’t make sense to just take the top three (Smart Reply only shows the user three options). It’s quite likely there is redundancy in the possible replies, e.g. three variations of “I’ll be there.”**
 
@@ -98,7 +98,7 @@ Response set generation begins with anonymised short response sentences from the
 
 Consider the below figure which contains anonymised short sentences for testing the model
 
-![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss6.png)
 
 At the next step response are clustered into semantic clusters where each represents an intent. The process is seeded with a few manually defined clusters sampled from the top frequent messages.
 
