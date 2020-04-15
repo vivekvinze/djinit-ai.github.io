@@ -20,5 +20,27 @@ synonyms of keywords.It’s delighting to see the system suggesting results that
 
 
 ## Smarts behind Smart Reply
+
+
 **How does it suggest brief responses when appropriate, just one tap away?**
+
+
 It uses the the sequence-to sequence learning framework , which uses long short term memory networks (LSTMs) to predict sequences of text. Consistent with the approach of the Neural Conversation Model,the input sequence is the content of the email and output being all possible replies.Smart Reply consists of the following components, which are also shown in Fig1
+
+
+
+![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+
+## Pre-processing
+
+
+An incoming email message is pre-processed before being fed into the Smart Reply pipeline. Pre-processing includes:
+
+
+● Language detection (non-English messages are discarded at this point, sorry).
+● Tokenization of subject and message body
+● Sentence segmentation
+ 
+● Normalization of infrequent words and entities – these are replaced by special tokens
+● Removal of quoted and forward email portions
+● Removal of greeting and closing phrases (“Hi John”,... “Regards, Mary”)
