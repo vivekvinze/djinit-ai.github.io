@@ -38,9 +38,14 @@ An incoming email message is pre-processed before being fed into the Smart Reply
 
 
 ● Language detection (non-English messages are discarded at this point, sorry).
+
 ● Tokenization of subject and message body
+
 ● Sentence segmentation
  
 ● Normalization of infrequent words and entities – these are replaced by special tokens
+
 ● Removal of quoted and forward email portions
+
 ● Removal of greeting and closing phrases (“Hi John”,... “Regards, Mary”)
+
