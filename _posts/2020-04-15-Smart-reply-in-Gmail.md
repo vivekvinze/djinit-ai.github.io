@@ -102,14 +102,14 @@ Consider the below figure which contains anonymised short sentences for testing 
 
 At the next step response are clustered into semantic clusters where each represents an intent. The process is seeded with a few manually defined clusters sampled from the top frequent messages.
 
-![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss7.png)
 
 We then construct a base graph with frequent response messages as nodes (VR). For each response message, we further extract a set of lexical features (ngrams and skip-grams of length up to 3) and add these as “feature” nodes (VF) to the same graph. Edges are created between a pair of nodes (u, v) where u ∈ VR and v ∈ VF if v belongs to the feature set for response u.
-![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss8.png)
 
 From this graph a semantic labelling is learned using the EXPANDER framework. The top scoring output label for a given node is assigned as the node’s semantic intent. The algorithm is run over a number of iterations, each time introducing another batch of randomly sampled new responses from the remaining unlabeled nodes in the graph. Finally, the top ​k members for each semantic cluster are extracted, sorted by their label scores.
 
 The set of (response, cluster label) pairs are then validated by human raters... The result is an automatically generated and validated set of high quality response messages labeled with semantic intent.
 Following code helps to get the desired smart reply
 
-![Image of Yaktocat](https://miro.medium.com/max/848/1*kgzLawJmfp3i3UCG_KhfDA.png)
+![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss9.png)
