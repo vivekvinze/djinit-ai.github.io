@@ -2,8 +2,8 @@
 layout:     post
 title:      Spotify's Algorithm
 date:       2020-04-16 08:19:29
-summary:    Introduction to smart reply system in Gmail
-categories: python
+summary:    Introduction to Spotify's recommendation system.
+categories: python, deep learning
 ---
 
 ## Spotify's Algorithm
@@ -98,8 +98,8 @@ Whatever we do on spotify , they transform it into useful data which can be used
 Example:- Suppose we are browsing through our news feed on facebook and there may be a song posted by many of your friends and you may have given your like for that song , then Spotify make sures that song and other songs related to the earlier one is shown at the top whenever u log into your spotify account.
 
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss1.png)
+![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss99.png)
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss1.png)
+![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss10.png)
 
 Now you know how Artificial Intelligence is implemented to get you killer recommendations on your Spotify. And that is what has given Spotify this huge user base it has today!
