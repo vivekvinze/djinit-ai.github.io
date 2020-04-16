@@ -21,11 +21,11 @@ Spotify’s recommendation system is built on the belief to provide each and eve
 A Spotify user’s home screen is governed by an A.I. system called BaRT (“Bandits for Recommendations as Treatments”). BaRT is solely responsible for organising a users complete display  and collections included shelves of suggested songs that follow a theme like “best of artists” or “keep the vibe going,” and the order the playlists appear on those shelves that a user might like. But at the same time, BaRT is responsible for providing the user with new and fresh content regularly.
 
 Spotify adopts the ‘Exploit & Explore’ mechanism for providing user recommendations. BaRT “exploits” a given users data to analyse various facts like his/her 
---music listening history
---which songs you’ve skipped
---what playlists you’ve made
---your activity on the platform’s social features
---and EVEN YOUR LOCATION !
+- music listening history
+- which songs you’ve skipped
+- what playlists you’ve made
+- your activity on the platform’s social features
+- and EVEN YOUR LOCATION !
 After using all of this data, BaRT starts understanding trends in users listening behaviour, which for humans would mean ‘understanding one’s taste’. BaRT learns the users likes and dislikes, and depending on that, it decides what else might that user like hear.
 
 In order to create Discover Weekly, there are three main types of recommendation models that Spotify employs:
