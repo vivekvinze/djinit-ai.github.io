@@ -10,13 +10,13 @@ categories: python, deep learning
 
 What’s the biggest name in the music streaming industry today? If you guessed Spotify, you guessed it right. It has over 100 million paid subscribers! The key highlight about Spotify is the way it is personalised for each user. The more you use Spotify, the better it knows you and the better it recommends!
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss11.png)
+![ss11.png](https://djinit-ai.github.io/images/ss11.png)
 
 It has a “Discover Weekly” playlist, which is an absolute gem for music lovers. It curates a mixtape of 30 absolutely fresh songs for you, totally based on your streaming history. These songs are ones that you’ve never listened to, but will totally strike a chord with you. We’re going to see how Artificial Intelligence makes this magic happen.
 
 Spotify’s recommendation system is built on the belief to provide each and every user a personalised feel and a sense of uniqueness to his/her listening experience. Its goal is to quickly help users find something they are going to enjoy listening to, according to a presentation by Spotify Research director Mounia Lalmas-Roelleke at the Web Conference earlier this year.
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss22.png)
+![ss22.png](https://djinit-ai.github.io/images/ss22.png)
 
 A Spotify user’s home screen is governed by an A.I. system called BaRT (“Bandits for Recommendations as Treatments”). BaRT is solely responsible for organising a users complete display  and collections included shelves of suggested songs that follow a theme like “best of artists” or “keep the vibe going,” and the order the playlists appear on those shelves that a user might like. But at the same time, BaRT is responsible for providing the user with new and fresh content regularly.
 
@@ -39,11 +39,11 @@ Collaborative Filtering is a technique where Spotify provides you with recommend
 
 Consider the whole Spotify community just confined to 4 people, Sheldon, Leonard, RAj and Howard. All of them have their own taste in music. For simplicity, let’s assume that the Spotify Database is just confined to five songs. To make things simpler, the only dimensions we will be considering is how many times a user listens to a particular song. That’s good enough to begin with!
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss33.png)
+![ss33.png](https://djinit-ai.github.io/images/ss33.png)
 
 This is all the data we need! As shown above, each user has heard these 5 songs a given number of times and they all clearly have their likes and dislikes. However, a few anomalous users can cause a skew in our analysis and so scaling our data becomes important.
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss44.png)
+![ss44.png](https://djinit-ai.github.io/images/ss44.png)
 
 That looks better! Now for every user, the data about how many times he listens to each song is normalized around it’s mean.
 Next up, we will be working with a value which actually helps a machine understand how similar two things are. As the name suggests, this value is called the Cosine Similarity.
@@ -54,7 +54,7 @@ The best way to understand Cosine Similarity is with the help of an example. Let
 
 We know that the “cos” of an angle between two vectors is 0 when the vectors face opposite to each other and 1 when they coincide. This fact leads us to the thought that the similarity between 2 vectors and the cos of the angle between them is directly proportional. Hence the name COSINE - SIMILARITY !!
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss55.png)
+![ss55.png](https://djinit-ai.github.io/images/ss55.png)
 
 This is the reason we can say that song B and song A are really similar both graphically and by considering the cos of their angles between them.
 
@@ -62,7 +62,7 @@ Now imagine such a situation with way more dimensions than hits and ranking and 
 
 Getting back to our example, we have understood how a machine understands the level of similarity between 2 songs...But how does it really use it?
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss66.png)
+![ss66.png](https://djinit-ai.github.io/images/ss66.png)
 
 What the piece of code above essentially does is that it treats the no. of times each individual has heard a particular songs as dimensions of each song and on the basis of these dimensions try to find how similar one song is to the other.
 
@@ -70,7 +70,7 @@ Confused? Don’t worry, just take one song at a time, say Havana - for this son
 
 Congratulations!! We built a recommendation system. Now all that’s left to do is suggest songs to new users. Let’s say our new user (obviously Penny) has already heard “Wake Me Up” 3 times. From this data, we can easily run a function to suggest the kind of songs she should hear next.
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss77.png)
+![ss77.png](https://djinit-ai.github.io/images/ss77.png)
 
 And there you have it! Our recommendation system is up and suggesting like a pro. This essentially what Spotify, or any other platform where recommendations are required, uses. The only difference is that it uses data from a lot more users, with many more features extracted from each user (not just the no. of times he hears a song) like chosen languages, region, etc. This created a multi-dimensional grid which uses the same principle as above to provide better decisions.
 
@@ -78,7 +78,7 @@ Meanwhile the main ingredient in Discover Weekly is the people who listens itsel
 
 But when Spotify explores, it uses the information about the rest of the world, like playlists and artists similar to your taste in music but you haven’t heard yet, the popularity of other artists, and more. In the exploring process, BaRT is responsible for providing users with content which is relative to him/her, but at the same time expose a user to the new and trending material out there ( Because that’s what brings in the money at the end of the day ;) ).
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss88.png)
+![ss88.png](https://djinit-ai.github.io/images/s88.png)
 
 Success for BaRT is measured by whether you actually listen to the suggested music and for how long. When you stream a song for more than 30 seconds, the algorithm tracks that as getting the recommendation right, according to the presentation. The longer you listen to the recommended playlist or set of songs, the better the recommendation is determined to be.Spotify’s sweet spot for understanding whether a person likes a song or not seems to be 30 seconds. In a 2015 interview with Quartz, Spotify product director Matthew Ogle, who has since left the company, mentioned that skipping before the 30-second mark is the equivalent of a thumbs down for the Discover Weekly playlist.
 
@@ -98,8 +98,8 @@ Whatever we do on spotify , they transform it into useful data which can be used
 Example:- Suppose we are browsing through our news feed on facebook and there may be a song posted by many of your friends and you may have given your like for that song , then Spotify make sures that song and other songs related to the earlier one is shown at the top whenever u log into your spotify account.
 
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss99.png)
+![ss99.png](https://djinit-ai.github.io/images/ss99.png)
 
-![Image of Yaktocat](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss10.png)
+![ss10.png](https://djinit-ai.github.io/images/ss10.png)
 
 Now you know how Artificial Intelligence is implemented to get you killer recommendations on your Spotify. And that is what has given Spotify this huge user base it has today!
