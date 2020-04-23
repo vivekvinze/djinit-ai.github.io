@@ -12,7 +12,7 @@ It’s pretty easy to read your emails while you’re on the go, but responding 
 ​available in Inbox by Gmail , saves you time by suggesting quick responses to your messages. The feature drives 12 percent 
 of replies in Inbox on mobile. And it has also been started for Android and iOS .
 
-![ss1.png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss1.png)
+![ss1.png](https://github.com/djinit-ai/djinit-ai.github.io/images/ss1.png)
 
 
 From the above we can see that the system can find responses that are on point, without an overlap of keywords or even 
@@ -29,7 +29,7 @@ It uses the the sequence-to sequence learning framework , which uses long short 
 
 
 
-![ss2.png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss2.png)
+![ss2.png](https://github.com/djinit-ai/djinit-ai.github.io/images/ss2.png)
 
 ## Pre-processing
 
@@ -51,7 +51,7 @@ An incoming email message is pre-processed before being fed into the Smart Reply
 
 For example, here first dataset is loaded and then cleaned and transformed into target dataset.
 
-![ss3.png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss3.png)
+![ss3.png](https://github.com/djinit-ai/djinit-ai.github.io/images/ss3.png)
 
 ## Trigger Response
 
@@ -66,7 +66,7 @@ If the probability score output by the triggering component is greater than a pr
 
 Following code helps in implementing Trigger Response
 
-![ss4.png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss4.png)
+![ss4.png](https://github.com/djinit-ai/djinit-ai.github.io/images/ss4.png)
 
 ## Response selection
 
@@ -82,7 +82,7 @@ This requires a searching and scoring mechanism that is not a function of the si
 
 ## Ensuring diversity in responses
 
-![ss5.png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss5.png)
+![ss5.png](https://github.com/djinit-ai/djinit-ai.github.io/images/ss5.png)
 
 **At this point we have an ordered list of possible responses, but it doesn’t make sense to just take the top three (Smart Reply only shows the user three options). It’s quite likely there is redundancy in the possible replies, e.g. three variations of “I’ll be there.”**
 
@@ -98,18 +98,18 @@ Response set generation begins with anonymised short response sentences from the
 
 Consider the below figure which contains anonymised short sentences for testing the model
 
-![ss6.png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss6.png)
+![ss6.png](https://github.com/djinit-ai/djinit-ai.github.io/images/ss6.png)
 
 At the next step response are clustered into semantic clusters where each represents an intent. The process is seeded with a few manually defined clusters sampled from the top frequent messages.
 
-![ss7.png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss7.png)
+![ss7.png](https://github.com/djinit-ai/djinit-ai.github.io/images/ss7.png)
 
 We then construct a base graph with frequent response messages as nodes (VR). For each response message, we further extract a set of lexical features (ngrams and skip-grams of length up to 3) and add these as “feature” nodes (VF) to the same graph. Edges are created between a pair of nodes (u, v) where u ∈ VR and v ∈ VF if v belongs to the feature set for response u.
-![ss8.png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss8.png)
+![ss8.png](https://github.com/djinit-ai/djinit-ai.github.io/images/ss8.png)
 
 From this graph a semantic labelling is learned using the EXPANDER framework. The top scoring output label for a given node is assigned as the node’s semantic intent. The algorithm is run over a number of iterations, each time introducing another batch of randomly sampled new responses from the remaining unlabeled nodes in the graph. Finally, the top ​k members for each semantic cluster are extracted, sorted by their label scores.
 
 The set of (response, cluster label) pairs are then validated by human raters... The result is an automatically generated and validated set of high quality response messages labeled with semantic intent.
 Following code helps to get the desired smart reply
 
-![ss9.png](https://github.com/djinit-ai/djinit-ai.github.io/blob/master/images/ss9.png)
+![ss9.png](https://github.com/djinit-ai/djinit-ai.github.io/images/ss9.png)
