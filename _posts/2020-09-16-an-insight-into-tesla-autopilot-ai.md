@@ -47,7 +47,7 @@ Self-driving cars combine a variety of sensors to perceive their surroundings, s
 
 <table id="mytable">
   <tr>
-    <th>Level</th>
+    <th>Level &nbsp;</th>
     <th>Description</th>
   </tr>
   <tr>
