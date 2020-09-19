@@ -84,11 +84,6 @@ Another feature Tesla is testing right now is a predictive behavior as to what a
 #### Click on image below to view the video
 [![Watch the video](https://i.vimeocdn.com/video/603457588.webp?mw=1300&mh=731&q=70)](https://player.vimeo.com/video/192179726?app_id=122963)
 
-Now comes the part that is certainly the best breakthrough Tesla has had in terms of Driverless Vehicles and in the field of Deep Learning and Neural Networks.
-<center><i>A typical neural network just for the camera perception.</i></center>
-
-![an-insight-tesla-autopilot-ai-8.png](/images/an-insight-tesla-autopilot-ai-8.png)
-
 ### ADAPTIVE NEURAL NETWORKS!!!
 A recent patent publication titled 'System and Method for Adapting a Neural Network Model on a Hardware Platform' has provided insight into the way that Tesla aims to create adaptable neural networks that can be used for various hardware platforms.
 The patent application is a product of Tesla's acquisition of DeepScale, an AI startup that develops solutions for Full Self Driving as well as neural networks for small devices.
