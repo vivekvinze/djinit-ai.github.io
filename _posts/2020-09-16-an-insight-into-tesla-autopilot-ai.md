@@ -19,12 +19,36 @@ A driverless car, also known as an autonomous vehicle or a self-driving car, is 
 Self-driving cars combine a variety of sensors to perceive their surroundings, such as radar, lidar, sonar, GPS, odometry and inertial measurement units. Advanced control systems interpret sensory information to identify appropriate navigation paths, as well as obstacles and relevant signage.
 
 ### Levels of Autonomy in a DV:
-<u><b>Level 0</b></u> - No Automation - This describes your everyday car. <br>
-<u><b>Level 1</b></u> - Driver Assistance - Here we can find your adaptive cruise control and lane keep assist to help with driving fatigue. Adaptive cruise control will keep a safe distance between you and the car ahead of you by using a combination of sensors, actuators and programs. <br>
-<u><b>Level 2</b></u> - Partial Automation - the driver must have hands on the wheel and be ready to take control at any given moment, level 2 automation can assist in controlling speed and steering.  <br>
-<u><b>Level 3</b></u> - Conditional Automation - These autonomous vehicles are capable of driving themselves, but only under ideal conditions and with limitations, such as limited-access divided highways at a certain speed. Although hands are off the wheel, drivers are still required behind the wheel. <br>
-<u><b>Level 4</b></u> - High Automation - Autonomous vehicles that fall in this category can drive themselves without human interactions (besides entering your destination) but will be restricted to known use cases. <br>
-<u><b>Level 5</b></u> - Full Automation - Super Pursuit Mode! At Level 5 autonomy we arrive at true driverless cars. Level 5 capable vehicles should be able to monitor and maneuver through all road conditions and require no human interventions whatsoever, eliminating the need for a steering wheel and pedals. <br>
+<table>
+  <tr style="background-color:#00FF7F">
+    <th>Level</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><u><b>Level 0</b></u></td>
+    <td>No Automation - This describes your everyday car.</td>
+  </tr>
+  <tr>
+    <td><u><b>Level 1</b></u></td>
+    <td>Driver Assistance - Here we can find your adaptive cruise control and lane keep assist to help with driving fatigue. Adaptive cruise control will keep a safe distance between you and the car ahead of you by using a combination of sensors, actuators and programs.</td>
+  </tr>
+  <tr>
+    <td><u><b>Level 2</b></u></td>
+    <td>Partial Automation - the driver must have hands on the wheel and be ready to take control at any given moment, level 2 automation can assist in controlling speed and steering.</td>
+  </tr>
+  <tr>
+    <td><u><b>Level 3</b></u></td>
+    <td>Conditional Automation - These autonomous vehicles are capable of driving themselves, but only under ideal conditions and with limitations, such as limited-access divided highways at a certain speed. Although hands are off the wheel, drivers are still required behind the wheel.</td>
+  </tr>
+  <tr>
+    <td><u><b>Level 4</b></u></td>
+    <td>High Automation - Autonomous vehicles that fall in this category can drive themselves without human interactions (besides entering your destination) but will be restricted to known use cases.</td>
+  </tr>
+  <tr>
+    <td><u><b>Level 5</b></u></td>
+    <td>Full Automation - Super Pursuit Mode! At Level 5 autonomy we arrive at true driverless cars. Level 5 capable vehicles should be able to monitor and maneuver through all road conditions and require no human interventions whatsoever, eliminating the need for a steering wheel and pedals.</td>
+  </tr>
+</table>
 
 ### Stages/Nodes of an Autonomous Vehicle:
 <u><b>1.	PERCEPTION:</b></u> To recognize, detect and perceive it environment and detect changes or maybe obstacles in real-time. <br>
