@@ -19,7 +19,7 @@ A driverless car, also known as an autonomous vehicle or a self-driving car, is 
 Self-driving cars combine a variety of sensors to perceive their surroundings, such as radar, lidar, sonar, GPS, odometry and inertial measurement units. Advanced control systems interpret sensory information to identify appropriate navigation paths, as well as obstacles and relevant signage.
 
 ### Levels of Autonomy in a DV:
-<u><b>Level 0</b></u> - No Automation - This describes your everyday car.
+<u><b>Level 0</b></u> - No Automation - This describes your everyday car. <br>
 <u><b>Level 1</b></u> - Driver Assistance - Here we can find your adaptive cruise control and lane keep assist to help with driving fatigue. Adaptive cruise control will keep a safe distance between you and the car ahead of you by using a combination of sensors, actuators and programs. <br>
 <u><b>Level 2</b></u> - Partial Automation - the driver must have hands on the wheel and be ready to take control at any given moment, level 2 automation can assist in controlling speed and steering.  <br>
 <u><b>Level 3</b></u> - Conditional Automation - These autonomous vehicles are capable of driving themselves, but only under ideal conditions and with limitations, such as limited-access divided highways at a certain speed. Although hands are off the wheel, drivers are still required behind the wheel. <br>
@@ -97,20 +97,14 @@ The patent application is a product of Tesla's acquisition of DeepScale, an AI s
 Generally speaking, neural network algorithms are trained to carry out a singular task with incredible efficacy. While they allow for patterns to be recognized in data at a rate that humans simply could never achieve, adapting them is often time-consuming for developers.
 Tesla's answer to optimizing the adaptability of their neural networks, according to the recent patent filing, is to try to train and automate the sets of algorithms to be adaptable.
 According to the patent filing, after plugging a neural network model and specific hardware information, software code analyzes the neural network and pinpoints where the decision points are. The system then runs hardware parameters against that information before providing available configurations.
-
-![an-insight-tesla-autopilot-ai-9.png](/images/an-insight-tesla-autopilot-ai-9.png)
-
-![an-insight-tesla-autopilot-ai-10.png](/images/an-insight-tesla-autopilot-ai-10.png)
-
-![an-insight-tesla-autopilot-ai-11.png](/images/an-insight-tesla-autopilot-ai-11.png)
-
-![an-insight-tesla-autopilot-ai-12.png](/images/an-insight-tesla-autopilot-ai-12.png)
-
-![an-insight-tesla-autopilot-ai-13.png](/images/an-insight-tesla-autopilot-ai-13.png)
-
-![an-insight-tesla-autopilot-ai-14.png](/images/an-insight-tesla-autopilot-ai-14.png)
-
-![an-insight-tesla-autopilot-ai-15.png](/images/an-insight-tesla-autopilot-ai-15.png)
+<p align="center">
+<img src="/images/an-insight-tesla-autopilot-ai-10.png" />
+<img src="/images/an-insight-tesla-autopilot-ai-11.png" />
+<img src="/images/an-insight-tesla-autopilot-ai-12.png" />
+<img src="/images/an-insight-tesla-autopilot-ai-13.png" />
+<img src="/images/an-insight-tesla-autopilot-ai-14.png" />
+<img src="/images/an-insight-tesla-autopilot-ai-15.png" />
+</p>
 
 <p align="center">
 Because of all these inventions, innovations, and breakthroughs Tesla is the biggest and undisputed leader of the autonomous driving industry! Think like Tesla!
