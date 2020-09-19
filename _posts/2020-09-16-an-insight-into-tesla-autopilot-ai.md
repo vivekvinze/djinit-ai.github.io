@@ -6,11 +6,10 @@ summary:    An Insight into Tesla Autopilot AI
 categories: python, deep learning
 ---
 ## An Insight into Tesla Autopilot AI
+<p align="center">
+  <img src="/images/an-insight-tesla-autopilot-ai-2.png" />
+</p>
 Tesla Autopilot is a suite of advanced driver-assistance system features offered by Tesla that has lane centering, traffic-aware cruise control, self-parking, automatic lane changes, semi-autonomous navigation on limited access freeways, and the ability to summon the car from a garage or parking spot. In all of these features, the driver is responsible and the car requires constant supervision. The company claims the features reduce accidents caused by driver negligence and fatigue from long-term driving.
-
-![an-insight-tesla-autopilot-ai-1.png](/images/an-insight-tesla-autopilot-ai-1.png) |
-![an-insight-tesla-autopilot-ai-2.png](/images/an-insight-tesla-autopilot-ai-2.png) |
-![an-insight-tesla-autopilot-ai-3.png](/images/an-insight-tesla-autopilot-ai-3.png)
 
 Whoa! That’s a lot of heavy-tech words.
 To fully appreciate the awesomeness of this technological advancement made by Tesla, we must be acquainted with the concepts and challenges that define Autonomous Driving or rather that make a Driverless Car.
@@ -20,21 +19,23 @@ A driverless car, also known as an autonomous vehicle or a self-driving car, is 
 Self-driving cars combine a variety of sensors to perceive their surroundings, such as radar, lidar, sonar, GPS, odometry and inertial measurement units. Advanced control systems interpret sensory information to identify appropriate navigation paths, as well as obstacles and relevant signage.
 
 ### Levels of Autonomy in a DV:
-<u>Level 0</u> - No Automation - This describes your everyday car.
-<u>Level 1</u> - Driver Assistance - Here we can find your adaptive cruise control and lane keep assist to help with driving fatigue. Adaptive cruise control will keep a safe distance between you and the car ahead of you by using a combination of sensors, actuators and programs. <br>
-<u>Level 2</u> - Partial Automation - the driver must have hands on the wheel and be ready to take control at any given moment, level 2 automation can assist in controlling speed and steering.  <br>
-<u>Level 3</u> - Conditional Automation - These autonomous vehicles are capable of driving themselves, but only under ideal conditions and with limitations, such as limited-access divided highways at a certain speed. Although hands are off the wheel, drivers are still required behind the wheel. <br>
-<u>Level 4</u> - High Automation - Autonomous vehicles that fall in this category can drive themselves without human interactions (besides entering your destination) but will be restricted to known use cases. <br>
-<u>Level 5</u> - Full Automation - Super Pursuit Mode! At Level 5 autonomy we arrive at true driverless cars. Level 5 capable vehicles should be able to monitor and maneuver through all road conditions and require no human interventions whatsoever, eliminating the need for a steering wheel and pedals. <br>
+<u><b>Level 0</b></u> - No Automation - This describes your everyday car.
+<u><b>Level 1</b></u> - Driver Assistance - Here we can find your adaptive cruise control and lane keep assist to help with driving fatigue. Adaptive cruise control will keep a safe distance between you and the car ahead of you by using a combination of sensors, actuators and programs. <br>
+<u><b>Level 2</b></u> - Partial Automation - the driver must have hands on the wheel and be ready to take control at any given moment, level 2 automation can assist in controlling speed and steering.  <br>
+<u><b>Level 3</b></u> - Conditional Automation - These autonomous vehicles are capable of driving themselves, but only under ideal conditions and with limitations, such as limited-access divided highways at a certain speed. Although hands are off the wheel, drivers are still required behind the wheel. <br>
+<u><b>Level 4</b></u> - High Automation - Autonomous vehicles that fall in this category can drive themselves without human interactions (besides entering your destination) but will be restricted to known use cases. <br>
+<u><b>Level 5</b></u> - Full Automation - Super Pursuit Mode! At Level 5 autonomy we arrive at true driverless cars. Level 5 capable vehicles should be able to monitor and maneuver through all road conditions and require no human interventions whatsoever, eliminating the need for a steering wheel and pedals. <br>
 
 ### Stages/Nodes of an Autonomous Vehicle:
-1.	PERCEPTION: To recognize, detect and perceive it environment and detect changes or maybe obstacles in real-time. 
-2.	ESTIMATION: To extrapolate the various vital parameters that govern the functioning of a self-driving car and also make appropriate calculations that will be used to maneuver the car without any hiccups.
-3.	CONTROL: To make decisions, and give control commands to actuators of the vehicle based on the data provided by perception and estimation nodes and also take past learning into account.
-4.	CONTINUOUS INTEGRATION: To interface all the nodes and monitor their working. Doing all that, putting together a car that is capable of safely and smoothly transporting the passenger or the goods aboard to the destination.
+<u><b>1.	PERCEPTION:</b></u> To recognize, detect and perceive it environment and detect changes or maybe obstacles in real-time. <br>
+<u><b>2.	ESTIMATION:</b></u> To extrapolate the various vital parameters that govern the functioning of a self-driving car and also make appropriate calculations that will be used to maneuver the car without any hiccups. <br>
+<u><b>3.	CONTROL:</b></u> To make decisions, and give control commands to actuators of the vehicle based on the data provided by perception and estimation nodes and also take past learning into account.<br>
+<u><b>4.	CONTINUOUS INTEGRATION:</b></u> To interface all the nodes and monitor their working. Doing all that, putting together a car that is capable of safely and smoothly transporting the passenger or the goods aboard to the destination.<br>
 <center><u>Here’s a typical flowchart of how a Tesla car drives on Autopilot</u></center>
 
-![an-insight-tesla-autopilot-ai-4.png](/images/an-insight-tesla-autopilot-ai-4.png)
+<p align="center">
+<img src="/images/an-insight-tesla-autopilot-ai-4.png"/>
+</p>
 
 ### What are the challenges faced by a self-driving car?
 The current technology is not fully capable of producing a level 4 or 5 DV because of many shortcomings.
@@ -49,7 +50,9 @@ Cause, it provides a near perfect solution to each of the shortcomings faced by 
 
 ### How is TESLA doing it?
 
-![an-insight-tesla-autopilot-ai-5.png](/images/an-insight-tesla-autopilot-ai-5.png)
+<p align="center">
+  <img src="/images/an-insight-tesla-autopilot-ai-5.png" />
+</p>
 
 Well, we are going to see each of its mind-blowingly phenomenal solutions in brief detail.
 
@@ -57,14 +60,18 @@ Well, we are going to see each of its mind-blowingly phenomenal solutions in bri
 According To reports, TESLA has succeeded in building, testing and applying excellent sensors, and their peripheral hardware with reliable technologies like CAN 	bus that successfully deliver accurate measurements of important parameters with negligible time lag, so that the control system can make control decisions in time.
 For perception, a Tesla car is equipped with a variety of LIDAR sensors, 5 RADARs, a range of Ultrasonic sensors. All of these are mated to a microcomputer of freaking high computational power. This astonishingly high computational power is achieved by a GPU with insane capabilities. All of this put together is Tesla Vision.
 
-![an-insight-tesla-autopilot-ai-6.png](/images/an-insight-tesla-autopilot-ai-6.png)
+<p align="center">
+  <img src="/images/an-insight-tesla-autopilot-ai-6.png" />
+</p>
 
 ### TESLA’S SYSTEM ON CHIP COMPUTER:
 That’s the chip Tesla uses in its cars to do the heavy duty AI computation
 Power consumption: 100 W
 Capable of 144 Trillion operations per second
 
-![an-insight-tesla-autopilot-ai-7.png](/images/an-insight-tesla-autopilot-ai-7.png)
+<p align="center">
+  <img src="/images/an-insight-tesla-autopilot-ai-7.png" />
+</p>
 
 This chip is perfect and efficient for tesla’s needs i.e. Fast, Cheap, Efficient and Powerful option with low power consumption for full autonomy, GROUND UP neural networks accelerator. The alternatives consume too much power and are bulky.
 It has two independent computers (lighter blue and darker blue) which boot up separately.
@@ -105,10 +112,12 @@ According to the patent filing, after plugging a neural network model and specif
 
 ![an-insight-tesla-autopilot-ai-15.png](/images/an-insight-tesla-autopilot-ai-15.png)
 
+<p align="center">
+Because of all these inventions, innovations, and breakthroughs Tesla is the biggest and undisputed leader of the autonomous driving industry! Think like Tesla!
+</p>
 
-Because of all these inventions, innovations, and breakthroughs Tesla is the biggest and undisputed leader of the autonomous driving industry!
-Think like Tesla!
+<p align="center">
+  <img src="/images/an-insight-tesla-autopilot-ai-16.png" />
+</p>
 
-![an-insight-tesla-autopilot-ai-16.png](/images/an-insight-tesla-autopilot-ai-16.png)
-
-A tribute to the greatest engineer of all time!
+<p align="center">A tribute to the greatest engineer of all time! </p>
