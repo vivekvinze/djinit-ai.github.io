@@ -79,10 +79,7 @@ These two computers introduce a redundancy, even if one fails the other will kee
 Elon Musk has claimed that the probability of a human falling unconscious during driving is higher than the probability of the system failing entirely.
 
 ### DATA ACQUISITION:
-According to a report by Forbes, Tesla has long ago gathered over 2 billion miles of driving data that is used to train driverless cars. It will soon reach the 3 billion milestone. In comparison to its rivals, Tesla has taken a wildly massive lead in terms of collecting data which is one of the reasons Tesla has had kind of a breakthrough in self driving. Just for comparison, Waymo, Tesla’s biggest rival in autonomous locomotives industry, has gathered a mere 15 million miles of data, which may not be less but compared to Tesla is laughable.
-
-#### But how has Tesla done it in this case?
-The answer is <u><i>Shadow Mode</i></u>.
+According to a report by Forbes, Tesla has long ago gathered over 2 billion miles of driving data that is used to train driverless cars. It will soon reach the 3 billion milestone. In comparison to its rivals, Tesla has taken a wildly massive lead in terms of collecting data which is one of the reasons Tesla has had kind of a breakthrough in self driving. Just for comparison, Waymo, Tesla’s biggest rival in autonomous locomotives industry, has gathered a mere 15 million miles of data, which may not be less but compared to Tesla is laughable. Tesla has used <u><i>Shadow Mode</i></u> for this purpose.
 
 ### SHADOW MODE:
 This is another of Tesla’s brilliant innovations, where even while a car is in manual mode i.e. while it is being driven by a person, Tesla is constantly observing, recording, learning and simulating driverless driving. This unique variation of reinforcement learning helps it prepare a very efficient and realistic model that is prepared for real-life and real-time operations.
